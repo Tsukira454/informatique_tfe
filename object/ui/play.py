@@ -98,6 +98,13 @@ def play():
                     collision_tiles.append(tile_rect)
         return collision_tiles
 
+    def change_bg_maps(maps, background_pos, background):
+        # Cette fonction va afficher le bacground et la carte celon la position du joueur
+        pos_robot = robot.get_pos()
+        robot_screen_y = pos_robot[1]
+
+        return maps, background, background_pos
+    
     # === Boucle principale ===
     running = True
     clock = pygame.time.Clock()
@@ -125,14 +132,9 @@ def play():
                 map_offset_y += SIZE_BLOCK
                 robot.rect.y += SIZE_BLOCK  # maintien du robot à la même position écran
 
-        # --- Scroll background libre ---
-        scroll_y = pos_robot[1] - spawn_offset
-
-        # --- Dessin background ---
-        for i in range(len(background)):
-            x_bg = background_pos[i][0]
-            y_bg = background_pos[i][1] - scroll_y
-            screen.blit(background[i], (x_bg, y_bg))
+        # --- Changement background et map ---
+        maps, background, background_pos = change_bg_maps(maps, background_pos, background)
+        
 
         # --- Dessin map ---
         place_blocks(maps, map_offset_y)
