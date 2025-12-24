@@ -63,20 +63,18 @@ def main_menu():
 
             if event.type == pygame.QUIT:
                 running = False
+                return 3
 
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 mouse_pos = event.pos
 
                 if btn1_rect.collidepoint(mouse_pos):
-                    #pygame.quit()
                     return 1
 
                 if btn2_rect.collidepoint(mouse_pos):
-                    #pygame.quit()
                     return 2
 
                 if btn3_rect.collidepoint(mouse_pos):
-                    #pygame.quit()
                     return 3
 
         screen.blit(background, (0, 0))

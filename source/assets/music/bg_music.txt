@@ -1,0 +1,17 @@
+Sounds :
+    https://pixabay.com :
+        - music_bg.mp3
+        - death.mp3
+        - destroy.mp3
+
+Font :
+    https://www.1001fonts.com/karmatic-arcade-font.html
+
+Image pixel art :
+    https://itch.io :
+        - background.png
+        - background_1920x1080.png
+        - inventory.png
+        - BOUTIQUE_assets.png
+    Recherche google image :
+        - background_underground_1.png

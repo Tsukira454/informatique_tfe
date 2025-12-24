@@ -10,7 +10,6 @@ sys.path.insert(0, str(ROOT))
 
 # === Import config propre === #
 from config.config import LARGER_FENETRE, HAUTEUR_FENETRE, FULLSCREEN
-from object.others.button import ButtonSettings
 
 
 def option_menu():

@@ -2,12 +2,13 @@ import pygame
 import sys
 from pathlib import Path
 
-# === Fix du chemin d'accès === #
+# === Fix du chemin d'accès ===
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
-# === Import config propre === #
+# === Import config propre ===
 from config.config import LARGER_FENETRE, HAUTEUR_FENETRE, FULLSCREEN
+from ..others.save import save_load
 #from object.ui.play_menu import play_menu
 
 
@@ -16,7 +17,7 @@ def finish_menu(reward):
     x = LARGER_FENETRE
     y = HAUTEUR_FENETRE
 
-    # --- Configuration fenêtre --- #
+    # === Configuration fenêtre ===
     if FULLSCREEN:
         screen = pygame.display.set_mode((x, y), pygame.FULLSCREEN)
     else:
@@ -24,7 +25,7 @@ def finish_menu(reward):
 
     pygame.display.set_caption("Menu Principal")
 
-    # --- Chargement background --- #
+    # === Chargement background ===
     try:
         background = pygame.image.load("./assets/images/background.png")
         background = pygame.transform.scale(background, (x, y))
@@ -32,15 +33,22 @@ def finish_menu(reward):
         background = pygame.Surface((x, y))
         background.fill((40, 40, 40))
 
-    # --- Fonction utilitaire pour charger un bouton --- #
+    # === Fonction utilitaire pour charger un bouton ===
     def load_btn(path, size=(300, 140)):
         img = pygame.image.load(path)
         return pygame.transform.scale(img, size)
 
     btn_img_play = load_btn("./assets/ui/ui_btn_4_play.png")
 
-    # --- Position des boutons --- #
+    # === Position des boutons ===
     btn1_rect = btn_img_play.get_rect(center=(x//2, y//2 - 150))
+
+    # == DATA ===
+    old_data = save_load.load_data()
+    new_data = reward
+    print(f'reward : {reward}')
+    for i in range(len(new_data)):
+        old_data[new_data[i]]+=new_data[i]
 
     running = True
 
@@ -57,6 +65,8 @@ def finish_menu(reward):
                     pygame.quit()
                     # Chargement du module play menu ici pour éviter des erreur d'une boucle d'import
                     from object.ui.play_menu import play_menu
+                    from main import play_music
+                    play_music()
                     play_menu()
 
         screen.blit(background, (0, 0))

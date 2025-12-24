@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 from math import floor
 import time
+import os
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT))
@@ -27,8 +28,8 @@ class Robot:
         self.stairs = pygame.transform.scale(self.stairs, (SIZE_BLOCK, SIZE_BLOCK))
         self.pos_x = 0
         self.pos_y = 696
-        self.energy = 100
-        self.energy_max = 100
+        self.energy = 10
+        self.energy_max = 10
         # Position rectangle
         self.rect = pygame.Rect(self.pos_x, self.pos_y, SIZE_BLOCK, SIZE_BLOCK)
         self.time = 0
@@ -39,8 +40,29 @@ class Robot:
         self.gravity = 0.6
         self.on_ground = False
 
+        # resources
+        self.collected_resources = {}
+        self.collect_resource()
+
+    def collect_resource(self):
+        extensions_images = ('.png')
+        for fichier in os.listdir("./assets/blocks/blocks/"):
+            if fichier.lower().endswith(extensions_images):
+                resource_name = fichier[:-4]  # Enlever l'extension .png
+                self.collected_resources[resource_name] = 0
+
+    def play_sound_destroy(self):
+        pygame.mixer.init()
+        pygame.mixer.music.load("./assets/sounds/destroy_block.mp3")
+        pygame.mixer.music.set_volume(1)
+        pygame.mixer.music.play(0)
+
     def end(self):
-        finish_menu([0])
+        pygame.mixer.init()
+        pygame.mixer.music.load("./assets/sounds/death.mp3")
+        pygame.mixer.music.set_volume(1)
+        pygame.mixer.music.play(0)
+        finish_menu(self.collected_resources)
         
     def remove_energy(self, amount):
         self.energy-=amount
@@ -48,7 +70,7 @@ class Robot:
             self.end()
 
     def hud_valeur(self):
-        return {"energy" : self.energy, "energy_max" : self.energy_max, "energy_pourcentage" : (self.energy/self.energy_max)*100}
+        return {"energy" : self.energy, "energy_max" : self.energy_max, "energy_pourcentage" : (self.energy/self.energy_max)*100, "block_list" : self.collected_resources}
     def move_gravity(self, maps, collision_tiles):
         if not self.on_ground:
             self.speed_y += self.gravity
@@ -102,7 +124,9 @@ class Robot:
 
                     target_x = block_x - 1
                     if real_y in maps and 0 <= target_x < len(maps[real_y]):
+                        self.collected_resources[maps[real_y][target_x]] += 1
                         maps[real_y][target_x] = "air"
+                        self.play_sound_destroy()
                         self.remove_energy(1)
 
         # --------- DROITE ---------
@@ -115,7 +139,9 @@ class Robot:
 
                     target_x = block_x + 1
                     if real_y in maps and 0 <= target_x < len(maps[real_y]):
+                        self.collected_resources[maps[real_y][target_x]] += 1
                         maps[real_y][target_x] = "air"
+                        self.play_sound_destroy()
                         self.remove_energy(1)
 
         # --------- CREUSER AU-DESSUS ---------
@@ -124,7 +150,9 @@ class Robot:
 
             if above in maps and 0 <= block_x < len(maps[above]):
                 if maps[above][block_x] != "air":
+                    self.collected_resources[maps[above][block_x]] += 1
                     maps[above][block_x] = "air"
+                    self.play_sound_destroy()
                     self.remove_energy(1)
                 else:
                     # Pose un escalier si bloc au-dessus déjà vide
@@ -136,7 +164,9 @@ class Robot:
             below = self.get_closest_map_y(maps, self.rect.bottom + 1)
 
             if below in maps and 0 <= block_x < len(maps[below]):
+                self.collected_resources[maps[below][block_x]] += 1
                 maps[below][block_x] = "air"
+                self.play_sound_destroy()
                 self.remove_energy(1)
 
         return maps

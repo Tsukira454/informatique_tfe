@@ -11,7 +11,7 @@ sys.path.insert(0, str(ROOT))
 from config.config import LARGER_FENETRE, HAUTEUR_FENETRE, SIZE_BLOCK
 
 
-def create_simple_maps(seed="12345"):
+def create_simple_maps():
     pygame.init()
 
     block_size = SIZE_BLOCK
