@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT))
 
 from config.config import LARGER_FENETRE, HAUTEUR_FENETRE, SIZE_BLOCK
 from object.ui.finish_menu import finish_menu
+from object.others.logger import logger
 
 
 class Robot:
@@ -23,7 +24,7 @@ class Robot:
             image = pygame.image.load(f"./assets/sprites/robots/robots_{self.valeur_image[i]}.png")
             image = pygame.transform.scale(image, (SIZE_BLOCK, SIZE_BLOCK))
             self.image.append(image)
-        #print(self.image)
+        #logger.info(self.image)
         self.stairs = pygame.image.load("./assets/blocks/blocks/stairs.png")
         self.stairs = pygame.transform.scale(self.stairs, (SIZE_BLOCK, SIZE_BLOCK))
         self.pos_x = 0
@@ -84,7 +85,7 @@ class Robot:
                     self.rect.bottom = tile.top
                     self.on_ground = True
                     self.speed_y = 0
-                    #print(maps)
+                    #logger.info(maps)
                 elif self.speed_y < 0:  # En train de sauter
                     self.rect.top = tile.bottom
                     self.speed_y = 0
@@ -184,7 +185,7 @@ class Robot:
     
     def drawn_robots(self):
         energy = (self.energy/self.energy_max)*100
-        #print(energy)
+        #logger.info(energy)
         for i in range(len(self.valeur_image)-8):
             if self.energy == i:
                 return self.image[i]

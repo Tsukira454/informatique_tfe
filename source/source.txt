@@ -15,3 +15,6 @@ Image pixel art :
         - BOUTIQUE_assets.png
     Recherche google image :
         - background_underground_1.png
+
+logo :
+    - 

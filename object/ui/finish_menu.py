@@ -9,6 +9,7 @@ sys.path.insert(0, str(ROOT))
 # === Import config propre ===
 from config.config import LARGER_FENETRE, HAUTEUR_FENETRE, FULLSCREEN
 from ..others.save import save_load
+from object.others.logger import logger
 #from object.ui.play_menu import play_menu
 
 
@@ -45,10 +46,12 @@ def finish_menu(reward):
 
     # == DATA ===
     old_data = save_load.load_data()
-    new_data = reward
-    print(f'reward : {reward}')
+    new_data = {"money" : 3}
+    new_data_keys = list(new_data.keys())
     for i in range(len(new_data)):
-        old_data[new_data[i]]+=new_data[i]
+        logger.info(old_data[new_data_keys[i]])
+        logger.info(new_data[new_data_keys[i]])
+        old_data[new_data_keys[i]]+=new_data[new_data_keys[0]]
 
     running = True
 
