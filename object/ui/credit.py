@@ -34,8 +34,13 @@ def credit_menu():
         creator_image = pygame.image.load("./assets/images/creator.jpg")
         creator_image = pygame.transform.scale(creator_image, (300,300))
         creator_text = font.render("Tsukira", True, (224, 175, 255))
-        list_acteurs.append([creator_image, creator_text])
-
+        creator_text_role = font.render("Creator :", True, (255,255,255))
+        music_creator_img = pygame.image.load("./assets/images/music_creator.png")
+        music_creator_text = font.render("Majinn", True, (255,0,0))
+        music_creator_img = pygame.transform.scale(music_creator_img, (300,300))
+        music_creator_text_role = font.render("Music - fx :", True, (255,255,255))
+        list_acteurs.append([creator_image, creator_text, creator_text_role])
+        list_acteurs.append([music_creator_img, music_creator_text, music_creator_text_role])
         # === Boucle principale ===
         clock = pygame.time.Clock()
         running = True
@@ -53,9 +58,12 @@ def credit_menu():
                     return True
 
             screen.blit(background, (0,0))
-            for i in range(len(list_acteurs)):
-                screen.blit(list_acteurs[i][0], (LARGER_FENETRE//2-150, 50))
-                screen.blit(list_acteurs[i][1], (LARGER_FENETRE//2-75, 370))
+            screen.blit(list_acteurs[0][0], (LARGER_FENETRE//4-150, 50))
+            screen.blit(list_acteurs[0][1], (LARGER_FENETRE//4-75, 390))
+            screen.blit(list_acteurs[0][2], (LARGER_FENETRE//4-75, 355))
+            screen.blit(list_acteurs[1][0], (LARGER_FENETRE//4-150, 500))
+            screen.blit(list_acteurs[1][2], (LARGER_FENETRE//4-100, 820))
+            screen.blit(list_acteurs[1][1], (LARGER_FENETRE//4-70, 850))
             pygame.display.flip()
     except Exception:
         logger.error("Crédit page erreur ->", exc_info=True)

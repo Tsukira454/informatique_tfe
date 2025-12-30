@@ -4,6 +4,7 @@ from pathlib import Path
 from math import floor
 import time
 import os
+import random
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT))
@@ -11,6 +12,7 @@ sys.path.insert(0, str(ROOT))
 from config.config import LARGER_FENETRE, HAUTEUR_FENETRE, SIZE_BLOCK
 from object.ui.finish_menu import finish_menu
 from object.others.logger import logger
+from object.others.audio_manager import *
 
 
 class Robot:
@@ -53,16 +55,12 @@ class Robot:
                 self.collected_resources[resource_name] = 0
 
     def play_sound_destroy(self):
-        pygame.mixer.init()
-        pygame.mixer.music.load("./assets/sounds/destroy_block.mp3")
-        pygame.mixer.music.set_volume(1)
-        pygame.mixer.music.play(0)
+        if random.randint(0,5) == 0:
+            play_fx("./assets/sounds/fx_nexus_destroy_rare.mp3")
+        else:
+            play_fx("./assets/sounds/fx_nexus_destroy.wav")
 
     def end(self):
-        pygame.mixer.init()
-        pygame.mixer.music.load("./assets/sounds/death.mp3")
-        pygame.mixer.music.set_volume(1)
-        pygame.mixer.music.play(0)
         finish_menu(self.collected_resources)
         
     def remove_energy(self, amount):

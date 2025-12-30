@@ -10,14 +10,13 @@ from object.ui.option_menu import option_menu
 from object.others.save import save_load
 from object.ui.compte import compte_menu
 from config.config import *
+from object.others.audio_manager import play_bg_music
+
 
 
 def play_music():
     try:
-        pygame.mixer.init()
-        bg_sound = pygame.mixer.Sound("./assets/sounds/music_bg.mp3")
-        bg_sound.set_volume(0.2)
-        bg_sound.play(-1)
+        play_bg_music("./assets/sounds/music_nexus_bg.wav", volume=0.4)
     except Exception:
         logger.error("Erreur lors du lancement de la musique", exc_info=True)
 
@@ -36,7 +35,7 @@ def start_text():
 
                 Démarrage de Nexus Extraction
 
-+///////////////////////////////////////////////////////////////////////////+           
++///////////////////////////////////////////////////////////////////////////+
 """)
     logger.info("""
 +---------------------------- Bienvenue ! ----------------------------+

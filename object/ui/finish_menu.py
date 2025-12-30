@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT))
 from config.config import LARGER_FENETRE, HAUTEUR_FENETRE, FULLSCREEN
 from ..others.save import save_load
 from object.others.logger import logger
+from object.others.audio_manager import stop_bg_music, play_fx
 #from object.ui.play_menu import play_menu
 
 
@@ -24,7 +25,7 @@ def finish_menu(reward):
     else:
         screen = pygame.display.set_mode((x, y))
 
-    pygame.display.set_caption("Menu Principal")
+    pygame.display.set_caption("Mort :/")
 
     # === Chargement background ===
     try:
@@ -52,7 +53,9 @@ def finish_menu(reward):
         logger.info(old_data[new_data_keys[i]])
         logger.info(new_data[new_data_keys[i]])
         old_data[new_data_keys[i]]+=new_data[new_data_keys[0]]
-
+    # === Couper la music et mettre la music de mort
+    stop_bg_music()
+    play_fx("./assets/sounds/music_nexus_death.wav")
     running = True
 
     while running:
@@ -68,9 +71,9 @@ def finish_menu(reward):
                     pygame.quit()
                     # Chargement du module play menu ici pour éviter des erreur d'une boucle d'import
                     from object.ui.play_menu import play_menu
-                    from main import play_music
-                    play_music()
-                    play_menu()
+                    #compte wait
+                    file="player.json"
+                    play_menu(file, death=True)
 
         screen.blit(background, (0, 0))
         screen.blit(btn_img_play, btn1_rect)

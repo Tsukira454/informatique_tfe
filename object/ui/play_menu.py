@@ -13,13 +13,17 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 
-from config.config import LARGER_FENETRE, HAUTEUR_FENETRE, FULLSCREEN, FONT
+from config.config import *
 from object.others.logger import logger
+from object.others.audio_manager import play_bg_music
 
-def play_menu(compte_file):
+def play_menu(compte_file="player.json", death=False):
     logger.info(f"Entrez dans play_menu avec le compte {compte_file}")
     try:
         pygame.init()
+        if death:
+            pygame.mixer.init()
+            play_bg_music("./assets/sounds/music_nexus_bg.wav")
         x = LARGER_FENETRE
         y = HAUTEUR_FENETRE
         block_size = 32

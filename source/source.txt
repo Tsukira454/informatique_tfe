@@ -1,8 +1,9 @@
 Sounds :
     https://pixabay.com :
-        - music_bg.mp3
-        - death.mp3
         - destroy.mp3
+    Majinn:
+        - music_nexus_bg.wav
+        - music_nexus_death.wav
 
 Font :
     https://www.1001fonts.com/karmatic-arcade-font.html
