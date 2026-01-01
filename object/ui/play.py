@@ -45,7 +45,6 @@ def background_create():
                 y_background_pos = (HAUTEUR_FENETRE - (3 * SIZE_BLOCK)) - (1080 * (i - 1))
             background_pos.append((x_background_pos, y_background_pos))
 
-        logger.info("Background positions:", background_pos)
         return background, background_pos
     except Exception:
         logger.error("play - background_create() -> ", exc_info=True)

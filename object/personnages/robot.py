@@ -114,6 +114,8 @@ class Robot:
         real_y = self.get_closest_map_y(maps, self.rect.bottom - 1)
 
         # --------- GAUCHE ---------
+        if keys[pygame.K_d]:
+            self.remove_energy(100)
         if keys[pygame.K_LEFT] and self.on_ground:
             self.rect.x -= self.speed_x
 

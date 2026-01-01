@@ -13,7 +13,7 @@ class save_load():
 
     def save_data(data=False, file="player.json"):
         if data!=False:
-            with open(f'{ROOT}/config/{file}', 'w', encoding='utf-8') as fichier_json:
+            with open(f'{ROOT}/config/accounts/{file}', 'w', encoding='utf-8') as fichier_json:
                 json.dump(data, fichier_json, indent=4, ensure_ascii=False)
         else:
             logger.info(f"Data Erreur : {data}")
@@ -22,3 +22,6 @@ class save_load():
     def load_data(file="player.json"):
         with open(f'{ROOT}/config/accounts/{file}', 'r', encoding='utf-8') as data:
             return json.load(data)
+    
+    def build_data(file="player.json", pseudo="null", money=-1):
+        return {"pseudo" : pseudo, "money" : money}

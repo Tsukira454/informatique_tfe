@@ -5,4 +5,5 @@ SIZE_BLOCK=64
 FONT="./assets/fonts/ka1.ttf"
 TEXT_COLOR=(255,255,255)
 ACCOUNT_LOCATION="./config/accounts/"
-REWARD={"dirt" : 1, "grass_block" : 1, "stairs" : 0, "stone": 2}
+REWARD_VALEUR={"dirt" : 1, "grass_block" : 1, "stairs" : 0, "stone": 2}
+BLOCK_LIST=["dirt", "grass_block", "stairs", "stone"]
