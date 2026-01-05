@@ -1,7 +1,6 @@
 # Elvin Mouyart 6(t)b
 # UTF-8
 
-import pygame
 import os
 from object.others.logger import logger
 from object.ui.main_menu import main_menu

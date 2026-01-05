@@ -6918,3 +6918,2156 @@ Traceback (most recent call last):
     screen.blit(background, (0, 0))
 pygame.error: display Surface quit
 [2025-12-31 17:39:06] [INFO] +------ Fin du jeux -----+
+[2026-01-01 01:42:21] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 01:42:21] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 01:42:21] [INFO] Main Menu
+[2026-01-01 01:42:24] [INFO] Entrez dans compte
+[2026-01-01 01:42:25] [INFO] Compte rafraichi
+[2026-01-01 01:42:25] [INFO] Compte choisi -> player.json
+[2026-01-01 01:42:25] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 01:42:35] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 200, in play
+    robot.draw(screen)
+    ~~~~~~~~~~^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 210, in draw
+    screen.blit(image, self.rect)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 01:42:35] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play_menu.py", line 97, in play_menu
+    screen.blit(background, (0, 0))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 01:42:35] [INFO] +------ Fin du jeux -----+
+[2026-01-01 01:44:03] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 01:44:03] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 01:44:03] [INFO] Main Menu
+[2026-01-01 01:44:04] [INFO] Entrez dans compte
+[2026-01-01 01:44:04] [INFO] Compte rafraichi
+[2026-01-01 01:44:04] [INFO] Compte choisi -> player.json
+[2026-01-01 01:44:04] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 01:44:08] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 200, in play
+    robot.draw(screen)
+    ~~~~~~~~~~^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 210, in draw
+    screen.blit(image, self.rect)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 01:44:08] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play_menu.py", line 77, in play_menu
+    keys = pygame.key.get_pressed()
+pygame.error: video system not initialized
+[2026-01-01 01:44:08] [INFO] +------ Fin du jeux -----+
+[2026-01-01 01:47:18] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 01:47:18] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 01:47:19] [INFO] Main Menu
+[2026-01-01 01:47:19] [INFO] Entrez dans compte
+[2026-01-01 01:47:20] [INFO] Compte rafraichi
+[2026-01-01 01:47:20] [INFO] Compte choisi -> player.json
+[2026-01-01 01:47:20] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 01:47:25] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 200, in play
+    robot.draw(screen)
+    ~~~~~~~~~~^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 210, in draw
+    screen.blit(image, self.rect)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 01:47:25] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play_menu.py", line 97, in play_menu
+    screen.blit(background, (0, 0))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 01:47:25] [INFO] +------ Fin du jeux -----+
+[2026-01-01 01:55:55] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 01:55:55] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 01:55:55] [INFO] Main Menu
+[2026-01-01 01:55:56] [INFO] Entrez dans compte
+[2026-01-01 01:55:57] [INFO] Compte rafraichi
+[2026-01-01 01:55:57] [INFO] Compte choisi -> player.json
+[2026-01-01 01:55:57] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 01:56:00] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 199, in play
+    maps = robot.update(maps, collision_tiles)
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 178, in update
+    maps = self.move_input(maps, collision_tiles)
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 118, in move_input
+    self.remove_energy(100)
+    ~~~~~~~~~~~~~~~~~~^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 69, in remove_energy
+    self.end()
+    ~~~~~~~~^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 64, in end
+    finish_menu(self.collected_resources)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\finish_menu.py", line 103, in finish_menu
+    reward_blit(reward, block_list_img, block_list_str, reward_final)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\finish_menu.py", line 68, in reward_blit
+    text=font.render(f"{reward[str(block_list_str[i])]} * {REWARD_VALEUR[str(block_list_str[i])]}", True, TEXT_COLOR)
+         ^^^^
+NameError: name 'font' is not defined. Did you mean: 'float'?
+[2026-01-01 01:56:01] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:04:06] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:04:06] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:04:06] [INFO] Main Menu
+[2026-01-01 02:04:07] [INFO] Entrez dans compte
+[2026-01-01 02:04:07] [INFO] Compte rafraichi
+[2026-01-01 02:04:07] [INFO] Compte choisi -> player.json
+[2026-01-01 02:04:07] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 02:04:09] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 199, in play
+    maps = robot.update(maps, collision_tiles)
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 178, in update
+    maps = self.move_input(maps, collision_tiles)
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 118, in move_input
+    self.remove_energy(100)
+    ~~~~~~~~~~~~~~~~~~^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 69, in remove_energy
+    self.end()
+    ~~~~~~~~^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 64, in end
+    finish_menu(self.collected_resources)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\finish_menu.py", line 118, in finish_menu
+    reward_blit(reward, block_list_img, block_list_str, reward_final)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\finish_menu.py", line 67, in reward_blit
+    screen.blit(block_list_img[i], (x//2-SIZE_BLOCK, ((y//10)*2)+(i)*75))
+                                    ^
+UnboundLocalError: cannot access local variable 'x' where it is not associated with a value
+[2026-01-01 02:04:10] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:04:44] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:04:44] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:04:44] [INFO] Main Menu
+[2026-01-01 02:04:45] [INFO] Entrez dans compte
+[2026-01-01 02:04:45] [INFO] Compte rafraichi
+[2026-01-01 02:04:45] [INFO] Compte choisi -> player.json
+[2026-01-01 02:04:45] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 02:04:51] [INFO] Entrez dans play_menu avec le compte player.json
+[2026-01-01 02:04:52] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play_menu.py", line 97, in play_menu
+    screen.blit(background, (0, 0))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 02:04:52] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 199, in play
+    maps = robot.update(maps, collision_tiles)
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 178, in update
+    maps = self.move_input(maps, collision_tiles)
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 118, in move_input
+    self.remove_energy(100)
+    ~~~~~~~~~~~~~~~~~~^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 69, in remove_energy
+    self.end()
+    ~~~~~~~~^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 64, in end
+    finish_menu(self.collected_resources)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\finish_menu.py", line 116, in finish_menu
+    screen.blit(background, (0, 0))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 02:04:52] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play_menu.py", line 97, in play_menu
+    screen.blit(background, (0, 0))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 02:04:52] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:07:30] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:07:30] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:07:30] [INFO] Main Menu
+[2026-01-01 02:07:31] [INFO] Entrez dans compte
+[2026-01-01 02:07:32] [INFO] Compte rafraichi
+[2026-01-01 02:07:32] [INFO] Compte choisi -> player.json
+[2026-01-01 02:07:32] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 02:08:00] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:08:00] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:08:00] [INFO] Main Menu
+[2026-01-01 02:08:01] [INFO] Entrez dans compte
+[2026-01-01 02:08:01] [INFO] Compte rafraichi
+[2026-01-01 02:08:01] [INFO] Compte choisi -> player.json
+[2026-01-01 02:08:01] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 02:11:47] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:11:47] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:11:47] [INFO] Main Menu
+[2026-01-01 02:11:47] [INFO] Entrez dans compte
+[2026-01-01 02:11:48] [INFO] Compte rafraichi
+[2026-01-01 02:11:48] [INFO] Compte choisi -> player.json
+[2026-01-01 02:11:48] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 02:11:51] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 200, in play
+    robot.draw(screen)
+    ~~~~~~~~~~^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 210, in draw
+    screen.blit(image, self.rect)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 02:11:51] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play_menu.py", line 77, in play_menu
+    keys = pygame.key.get_pressed()
+pygame.error: video system not initialized
+[2026-01-01 02:11:51] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:13:32] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:13:32] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:13:32] [INFO] Main Menu
+[2026-01-01 02:13:33] [INFO] Entrez dans compte
+[2026-01-01 02:13:33] [INFO] Compte rafraichi
+[2026-01-01 02:13:33] [INFO] Compte choisi -> player.json
+[2026-01-01 02:13:33] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 02:13:36] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 200, in play
+    robot.draw(screen)
+    ~~~~~~~~~~^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 210, in draw
+    screen.blit(image, self.rect)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 02:13:36] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play_menu.py", line 97, in play_menu
+    screen.blit(background, (0, 0))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 02:13:36] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:14:10] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:14:10] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:14:10] [INFO] Main Menu
+[2026-01-01 02:14:10] [INFO] Entrez dans compte
+[2026-01-01 02:14:11] [INFO] Compte rafraichi
+[2026-01-01 02:14:11] [INFO] Compte choisi -> player.json
+[2026-01-01 02:14:11] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 02:14:13] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 199, in play
+    maps = robot.update(maps, collision_tiles)
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 178, in update
+    maps = self.move_input(maps, collision_tiles)
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 118, in move_input
+    self.remove_energy(100)
+    ~~~~~~~~~~~~~~~~~~^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 69, in remove_energy
+    self.end()
+    ~~~~~~~~^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 64, in end
+    finish_menu(self.collected_resources)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\finish_menu.py", line 118, in finish_menu
+    reward_blit(reward, block_list_img, block_list_str, reward_final)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\finish_menu.py", line 86, in reward_blit
+    screen.blit(text, (x//10)*4, ((y//10)*2)+(len(reward)+1)*75)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: invalid destination position for blit
+[2026-01-01 02:14:28] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:14:28] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:14:28] [INFO] Main Menu
+[2026-01-01 02:14:28] [INFO] Entrez dans compte
+[2026-01-01 02:14:29] [INFO] Compte rafraichi
+[2026-01-01 02:14:29] [INFO] Compte choisi -> player.json
+[2026-01-01 02:14:29] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 02:14:35] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 200, in play
+    robot.draw(screen)
+    ~~~~~~~~~~^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 210, in draw
+    screen.blit(image, self.rect)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 02:14:35] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play_menu.py", line 97, in play_menu
+    screen.blit(background, (0, 0))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 02:14:35] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:14:45] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:14:45] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:14:45] [INFO] Main Menu
+[2026-01-01 02:14:45] [INFO] Entrez dans compte
+[2026-01-01 02:14:46] [INFO] Compte rafraichi
+[2026-01-01 02:14:46] [INFO] Compte choisi -> player.json
+[2026-01-01 02:14:46] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 02:14:58] [INFO] Entrez dans play_menu avec le compte player.json
+[2026-01-01 02:15:01] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play.py", line 199, in play
+    maps = robot.update(maps, collision_tiles)
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 178, in update
+    maps = self.move_input(maps, collision_tiles)
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 146, in move_input
+    self.remove_energy(1)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 69, in remove_energy
+    self.end()
+    ~~~~~~~~^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\personnages\robot.py", line 64, in end
+    finish_menu(self.collected_resources)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\finish_menu.py", line 116, in finish_menu
+    screen.blit(background, (0, 0))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 02:15:01] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\play_menu.py", line 97, in play_menu
+    screen.blit(background, (0, 0))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+pygame.error: display Surface quit
+[2026-01-01 02:15:01] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:22:04] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:22:04] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:22:04] [INFO] Main Menu
+[2026-01-01 02:22:05] [INFO] Entrez dans compte
+[2026-01-01 02:22:07] [INFO] Compte choisi -> False
+[2026-01-01 02:22:07] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:22:39] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:22:39] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:22:39] [INFO] Main Menu
+[2026-01-01 02:22:40] [INFO] Entrez dans compte
+[2026-01-01 02:22:43] [INFO] Compte choisi -> False
+[2026-01-01 02:22:43] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:23:09] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:23:09] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:23:09] [INFO] Main Menu
+[2026-01-01 02:23:10] [INFO] Entrez dans compte
+[2026-01-01 02:23:11] [INFO] Compte choisi -> False
+[2026-01-01 02:23:11] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:39:50] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:39:50] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:39:50] [INFO] Main Menu
+[2026-01-01 02:39:50] [INFO] Entrez dans compte
+[2026-01-01 02:39:50] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 81, in compte_menu
+    screen.blit(compte_list[i][1], (LARGER_FENETRE//2-300, (i+1)*250))
+                ~~~~~~~~~~~~~~^^^
+TypeError: 'pygame.surface.Surface' object is not subscriptable
+[2026-01-01 02:39:50] [INFO] Compte choisi -> None
+[2026-01-01 02:39:50] [INFO] Main Menu
+[2026-01-01 02:39:51] [INFO] Entrez dans compte
+[2026-01-01 02:39:51] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 81, in compte_menu
+    screen.blit(compte_list[i][1], (LARGER_FENETRE//2-300, (i+1)*250))
+                ~~~~~~~~~~~~~~^^^
+TypeError: 'pygame.surface.Surface' object is not subscriptable
+[2026-01-01 02:39:51] [INFO] Compte choisi -> None
+[2026-01-01 02:39:51] [INFO] Main Menu
+[2026-01-01 02:43:52] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:43:52] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:43:52] [INFO] Main Menu
+[2026-01-01 02:43:53] [INFO] Entrez dans compte
+[2026-01-01 02:43:53] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 58, in compte_menu
+    compte_list, compte_list_rect = compte_load()
+                                    ~~~~~~~~~~~^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 49, in compte_load
+    create_compte_btn_rect = surface_btn_new.get_rect((LARGER_FENETRE//2-300, (0+1)*250))
+TypeError: get_rect only accepts keyword arguments
+[2026-01-01 02:43:53] [INFO] Compte choisi -> None
+[2026-01-01 02:43:53] [INFO] Main Menu
+[2026-01-01 02:43:54] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:44:18] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:44:18] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:44:18] [INFO] Main Menu
+[2026-01-01 02:44:18] [INFO] Entrez dans compte
+[2026-01-01 02:44:18] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 84, in compte_menu
+    screen.blit(compte_list[i][1], (LARGER_FENETRE//2-300, (i+1)*250))
+                ~~~~~~~~~~~~~~^^^
+TypeError: 'pygame.surface.Surface' object is not subscriptable
+[2026-01-01 02:44:18] [INFO] Compte choisi -> None
+[2026-01-01 02:44:18] [INFO] Main Menu
+[2026-01-01 02:44:21] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:46:15] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:46:15] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:46:15] [INFO] Main Menu
+[2026-01-01 02:46:16] [INFO] Entrez dans compte
+[2026-01-01 02:46:19] [INFO] Compte choisi -> False
+[2026-01-01 02:46:19] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:46:43] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:46:43] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:46:43] [INFO] Main Menu
+[2026-01-01 02:46:43] [INFO] Entrez dans compte
+[2026-01-01 02:46:45] [INFO] Compte choisi -> False
+[2026-01-01 02:46:45] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:46:49] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:46:49] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:46:49] [INFO] Main Menu
+[2026-01-01 02:46:50] [INFO] Entrez dans compte
+[2026-01-01 02:46:51] [INFO] Compte choisi -> False
+[2026-01-01 02:46:51] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:47:06] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:47:06] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:47:06] [INFO] Main Menu
+[2026-01-01 02:47:07] [INFO] Entrez dans compte
+[2026-01-01 02:47:08] [INFO] Compte choisi -> False
+[2026-01-01 02:47:08] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:47:16] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:47:16] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:47:16] [INFO] Main Menu
+[2026-01-01 02:47:17] [INFO] Entrez dans compte
+[2026-01-01 02:47:19] [INFO] Compte choisi -> False
+[2026-01-01 02:47:19] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:47:30] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:47:30] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:47:30] [INFO] Main Menu
+[2026-01-01 02:47:31] [INFO] Entrez dans compte
+[2026-01-01 02:47:32] [INFO] Création d'un compte...
+[2026-01-01 02:47:33] [INFO] Création d'un compte...
+[2026-01-01 02:47:36] [INFO] Compte choisi -> False
+[2026-01-01 02:47:36] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:48:54] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:48:54] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:48:54] [INFO] Main Menu
+[2026-01-01 02:48:55] [INFO] Entrez dans compte
+[2026-01-01 02:48:55] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 60, in compte_menu
+    compte_list, compte_list_rect = compte_load()
+                                    ~~~~~~~~~~~^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 57, in compte_load
+    button_compte_img = button_compte.button_img()
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\others\button_compte.py", line 29, in button_img
+    return surface
+           ^^^^^^^
+UnboundLocalError: cannot access local variable 'surface' where it is not associated with a value
+[2026-01-01 02:48:55] [INFO] Compte choisi -> None
+[2026-01-01 02:48:55] [INFO] Main Menu
+[2026-01-01 02:48:59] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:49:33] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:49:33] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:49:33] [INFO] Main Menu
+[2026-01-01 02:49:33] [INFO] Entrez dans compte
+[2026-01-01 02:49:33] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 60, in compte_menu
+    compte_list, compte_list_rect = compte_load()
+                                    ~~~~~~~~~~~^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 58, in compte_load
+    compte_list.append()
+    ~~~~~~~~~~~~~~~~~~^^
+TypeError: list.append() takes exactly one argument (0 given)
+[2026-01-01 02:49:33] [INFO] Compte choisi -> None
+[2026-01-01 02:49:33] [INFO] Main Menu
+[2026-01-01 02:49:40] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:49:46] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:49:46] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:49:46] [INFO] Main Menu
+[2026-01-01 02:49:46] [INFO] Entrez dans compte
+[2026-01-01 02:50:00] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:50:00] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:50:00] [INFO] Main Menu
+[2026-01-01 02:50:01] [INFO] Entrez dans compte
+[2026-01-01 02:50:02] [INFO] Compte choisi -> False
+[2026-01-01 02:50:02] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:50:06] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:50:06] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:50:06] [INFO] Main Menu
+[2026-01-01 02:50:07] [INFO] Entrez dans compte
+[2026-01-01 02:50:09] [INFO] Compte choisi -> False
+[2026-01-01 02:50:09] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:50:57] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:50:57] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:50:57] [INFO] Main Menu
+[2026-01-01 02:50:58] [INFO] Entrez dans compte
+[2026-01-01 02:51:02] [INFO] Compte choisi -> False
+[2026-01-01 02:51:02] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:51:06] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:51:06] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:51:06] [INFO] Main Menu
+[2026-01-01 02:51:07] [INFO] Entrez dans compte
+[2026-01-01 02:51:11] [INFO] Compte choisi -> False
+[2026-01-01 02:51:11] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:52:08] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:52:08] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:52:08] [INFO] Main Menu
+[2026-01-01 02:52:09] [INFO] Entrez dans compte
+[2026-01-01 02:52:11] [INFO] Compte choisi -> False
+[2026-01-01 02:52:11] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:52:17] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:52:17] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:52:17] [INFO] Main Menu
+[2026-01-01 02:52:18] [INFO] Entrez dans compte
+[2026-01-01 02:52:20] [INFO] Compte choisi -> False
+[2026-01-01 02:52:20] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:52:50] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:52:50] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:52:50] [INFO] Main Menu
+[2026-01-01 02:52:50] [INFO] Entrez dans compte
+[2026-01-01 02:52:55] [INFO] Compte rafraichi
+[2026-01-01 02:52:55] [INFO] Compte choisi -> player.json
+[2026-01-01 02:52:55] [INFO] Entrez dans play_menu avec le compte p
+[2026-01-01 02:52:57] [INFO] +------ Fin du jeux -----+
+[2026-01-01 02:53:01] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 02:53:01] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 02:53:01] [INFO] Main Menu
+[2026-01-01 02:53:02] [INFO] Entrez dans compte
+[2026-01-01 02:53:03] [INFO] Compte rafraichi
+[2026-01-01 02:53:14] [INFO] Compte rafraichi
+[2026-01-01 03:01:16] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 03:01:16] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 03:01:16] [INFO] Main Menu
+[2026-01-01 03:01:16] [INFO] Entrez dans compte
+[2026-01-01 03:01:17] [INFO] Création d'un compte...
+[2026-01-01 03:01:21] [INFO] Compte rafraichi
+[2026-01-01 03:01:22] [INFO] Compte choisi -> False
+[2026-01-01 03:01:22] [INFO] +------ Fin du jeux -----+
+[2026-01-01 03:02:08] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 03:02:08] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 03:02:08] [INFO] Main Menu
+[2026-01-01 03:02:08] [INFO] Entrez dans compte
+[2026-01-01 03:02:09] [INFO] Compte rafraichi
+[2026-01-01 03:02:12] [INFO] Création d'un compte...
+[2026-01-01 03:02:12] [INFO] Compte rafraichi
+[2026-01-01 03:02:14] [INFO] Compte choisi -> False
+[2026-01-01 03:02:14] [INFO] +------ Fin du jeux -----+
+[2026-01-01 03:02:26] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 03:02:26] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 03:02:26] [INFO] Main Menu
+[2026-01-01 03:02:27] [INFO] Entrez dans compte
+[2026-01-01 03:02:28] [INFO] Création d'un compte...
+[2026-01-01 03:02:28] [INFO] Création d'un compte...
+[2026-01-01 03:02:28] [INFO] Création d'un compte...
+[2026-01-01 03:02:28] [INFO] Création d'un compte...
+[2026-01-01 03:02:29] [INFO] Création d'un compte...
+[2026-01-01 03:02:29] [INFO] Création d'un compte...
+[2026-01-01 03:02:29] [INFO] Création d'un compte...
+[2026-01-01 03:02:29] [INFO] Création d'un compte...
+[2026-01-01 03:02:30] [INFO] Compte choisi -> False
+[2026-01-01 03:02:30] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:46:08] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:46:08] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:46:08] [INFO] Main Menu
+[2026-01-01 04:46:09] [INFO] Entrez dans compte
+[2026-01-01 04:46:10] [INFO] Création d'un compte...
+[2026-01-01 04:46:14] [INFO] Compte choisi -> False
+[2026-01-01 04:46:14] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:46:23] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:46:23] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:46:23] [INFO] Main Menu
+[2026-01-01 04:46:24] [INFO] Entrez dans compte
+[2026-01-01 04:46:25] [INFO] Création d'un compte...
+[2026-01-01 04:46:29] [INFO] Compte rafraichi
+[2026-01-01 04:46:31] [INFO] Compte rafraichi
+[2026-01-01 04:46:31] [INFO] Création d'un compte...
+[2026-01-01 04:46:32] [INFO] Nom validé : 
+[2026-01-01 04:46:35] [INFO] Création d'un compte...
+[2026-01-01 04:46:37] [INFO] Nom validé : ts
+[2026-01-01 04:46:38] [INFO] Création d'un compte...
+[2026-01-01 04:47:04] [INFO] Compte choisi -> False
+[2026-01-01 04:47:04] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:47:06] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:47:06] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:47:06] [INFO] Main Menu
+[2026-01-01 04:47:06] [INFO] Entrez dans compte
+[2026-01-01 04:47:07] [INFO] Création d'un compte...
+[2026-01-01 04:47:14] [INFO] Compte choisi -> False
+[2026-01-01 04:47:14] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:47:20] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:47:20] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:47:20] [INFO] Main Menu
+[2026-01-01 04:47:21] [INFO] Entrez dans compte
+[2026-01-01 04:47:22] [INFO] Compte rafraichi
+[2026-01-01 04:47:23] [INFO] Création d'un compte...
+[2026-01-01 04:47:27] [INFO] Compte choisi -> False
+[2026-01-01 04:47:27] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:48:25] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:48:25] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:48:25] [INFO] Main Menu
+[2026-01-01 04:48:25] [INFO] Entrez dans compte
+[2026-01-01 04:48:26] [INFO] Création d'un compte...
+[2026-01-01 04:48:27] [INFO] Nom validé : 
+[2026-01-01 04:48:27] [INFO] Nom validé : 
+[2026-01-01 04:48:27] [INFO] Nom validé : 
+[2026-01-01 04:48:27] [INFO] Nom validé : 
+[2026-01-01 04:48:28] [INFO] Nom validé : 
+[2026-01-01 04:48:29] [INFO] Nom validé : d
+[2026-01-01 04:48:31] [INFO] Compte choisi -> False
+[2026-01-01 04:48:31] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:49:14] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:49:14] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:49:14] [INFO] Main Menu
+[2026-01-01 04:49:15] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:49:42] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:49:42] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:49:42] [INFO] Main Menu
+[2026-01-01 04:49:43] [INFO] Entrez dans compte
+[2026-01-01 04:49:44] [INFO] Création d'un compte...
+[2026-01-01 04:49:45] [INFO] Nom validé : 
+[2026-01-01 04:49:47] [INFO] Nom validé : ts
+[2026-01-01 04:49:48] [INFO] Compte rafraichi
+[2026-01-01 04:49:50] [INFO] Compte choisi -> False
+[2026-01-01 04:49:50] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:50:16] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:50:16] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:50:16] [INFO] Main Menu
+[2026-01-01 04:50:17] [INFO] Entrez dans compte
+[2026-01-01 04:50:18] [INFO] Création d'un compte...
+[2026-01-01 04:50:20] [INFO] Nom validé : tsu
+[2026-01-01 04:50:21] [INFO] Compte rafraichi
+[2026-01-01 04:50:26] [INFO] Compte choisi -> False
+[2026-01-01 04:50:26] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:50:32] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:50:32] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:50:32] [INFO] Main Menu
+[2026-01-01 04:50:33] [INFO] Entrez dans compte
+[2026-01-01 04:50:34] [INFO] Création d'un compte...
+[2026-01-01 04:50:38] [INFO] Nom validé : tsukira
+[2026-01-01 04:50:41] [INFO] Compte rafraichi
+[2026-01-01 04:50:44] [INFO] Compte choisi -> False
+[2026-01-01 04:50:44] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:51:13] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:51:13] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:51:13] [INFO] Main Menu
+[2026-01-01 04:51:14] [INFO] Entrez dans compte
+[2026-01-01 04:51:15] [INFO] Création d'un compte...
+[2026-01-01 04:51:16] [INFO] Nom validé : dzqqdz
+[2026-01-01 04:51:23] [INFO] Compte rafraichi
+[2026-01-01 04:51:24] [INFO] Création d'un compte...
+[2026-01-01 04:52:33] [INFO] Compte choisi -> False
+[2026-01-01 04:52:33] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:59:24] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:59:24] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:59:24] [INFO] Main Menu
+[2026-01-01 04:59:25] [INFO] Entrez dans compte
+[2026-01-01 04:59:26] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 166, in compte_menu
+    if compte_list_rect[i+1].collidepoint(mouse_pos):
+       ~~~~~~~~~~~~~~~~^^^^^
+IndexError: list index out of range
+[2026-01-01 04:59:26] [INFO] Compte choisi -> None
+[2026-01-01 04:59:26] [INFO] Main Menu
+[2026-01-01 04:59:29] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:59:38] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:59:38] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:59:38] [INFO] Main Menu
+[2026-01-01 04:59:39] [INFO] Entrez dans compte
+[2026-01-01 04:59:40] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 166, in compte_menu
+    if compte_list_rect[i+1].collidepoint(mouse_pos):
+       ~~~~~~~~~~~~~~~~^^^^^
+IndexError: list index out of range
+[2026-01-01 04:59:40] [INFO] Compte choisi -> None
+[2026-01-01 04:59:40] [INFO] Main Menu
+[2026-01-01 04:59:45] [INFO] +------ Fin du jeux -----+
+[2026-01-01 04:59:56] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 04:59:56] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 04:59:56] [INFO] Main Menu
+[2026-01-01 04:59:57] [INFO] Entrez dans compte
+[2026-01-01 04:59:58] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 166, in compte_menu
+    if compte_list_rect[i].collidepoint(mouse_pos):
+       ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+[2026-01-01 04:59:58] [INFO] Compte choisi -> None
+[2026-01-01 04:59:58] [INFO] Main Menu
+[2026-01-01 05:00:02] [INFO] +------ Fin du jeux -----+
+[2026-01-01 05:07:22] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 05:07:22] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 05:07:22] [INFO] Main Menu
+[2026-01-01 05:07:22] [INFO] Entrez dans compte
+[2026-01-01 05:07:22] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 69, in compte_menu
+    compte_list, compte_list_rect, compte_child = compte_load()
+                                                  ~~~~~~~~~~~^^
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 63, in compte_load
+    button_compte_rect=button_compte.get_rect(topleft=(LARGER_FENETRE//2-300, (i+1)*250))
+                       ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonCompte' object has no attribute 'get_rect'
+[2026-01-01 05:07:22] [INFO] Compte choisi -> None
+[2026-01-01 05:07:22] [INFO] Main Menu
+[2026-01-01 05:07:37] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 05:07:37] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 05:07:37] [INFO] Main Menu
+[2026-01-01 05:07:37] [INFO] Entrez dans compte
+[2026-01-01 05:07:40] [INFO] Création d'un compte...
+[2026-01-01 05:07:40] [ERROR] Compte_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsuki\Desktop\info_tfe\informatique_tfe\object\ui\compte.py", line 171, in compte_menu
+    print(compte_child[i].button_fontion())
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: ButtonCompte.button_fontion() missing 1 required positional argument: 'pseudo'
+[2026-01-01 05:07:40] [INFO] Compte choisi -> None
+[2026-01-01 05:07:40] [INFO] Main Menu
+[2026-01-01 05:07:43] [INFO] +------ Fin du jeux -----+
+[2026-01-01 05:08:05] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 05:08:05] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 05:08:05] [INFO] Main Menu
+[2026-01-01 05:08:05] [INFO] Entrez dans compte
+[2026-01-01 05:08:08] [INFO] Création d'un compte...
+[2026-01-01 05:08:08] [INFO] Compte choisi -> None
+[2026-01-01 05:08:08] [INFO] Main Menu
+[2026-01-01 05:08:11] [INFO] Entrez dans compte
+[2026-01-01 05:08:12] [INFO] Création d'un compte...
+[2026-01-01 05:08:12] [INFO] Compte choisi -> None
+[2026-01-01 05:08:12] [INFO] Main Menu
+[2026-01-01 05:08:14] [INFO] Entrez dans compte
+[2026-01-01 05:08:15] [INFO] Compte choisi -> False
+[2026-01-01 05:08:15] [INFO] +------ Fin du jeux -----+
+[2026-01-01 05:08:51] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 05:08:51] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 05:08:51] [INFO] Main Menu
+[2026-01-01 05:08:52] [INFO] Entrez dans compte
+[2026-01-01 05:08:52] [INFO] Création d'un compte...
+[2026-01-01 05:08:55] [INFO] Compte choisi -> False
+[2026-01-01 05:08:55] [INFO] +------ Fin du jeux -----+
+[2026-01-01 05:09:00] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 05:09:00] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 05:09:00] [INFO] Main Menu
+[2026-01-01 05:09:00] [INFO] Entrez dans compte
+[2026-01-01 05:09:05] [INFO] Création d'un compte...
+[2026-01-01 05:09:07] [INFO] Compte choisi -> False
+[2026-01-01 05:09:07] [INFO] +------ Fin du jeux -----+
+[2026-01-01 05:09:16] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 05:09:16] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 05:09:16] [INFO] Main Menu
+[2026-01-01 05:10:05] [INFO] Enter -> crédit
+[2026-01-01 05:10:06] [INFO] Entrez dans compte
+[2026-01-01 05:10:11] [INFO] Compte choisi -> False
+[2026-01-01 05:10:11] [INFO] +------ Fin du jeux -----+
+[2026-01-01 05:10:27] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-01-01 05:10:27] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-01-01 05:10:27] [INFO] Main Menu
+[2026-01-01 05:10:28] [INFO] Entrez dans compte
+[2026-01-01 05:10:36] [INFO] Compte choisi -> False
+[2026-01-01 05:10:36] [INFO] +------ Fin du jeux -----+

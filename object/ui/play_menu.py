@@ -26,7 +26,7 @@ def play_menu(compte_file="player.json", death=False):
             play_bg_music("./assets/sounds/music_nexus_bg.wav")
         x = LARGER_FENETRE
         y = HAUTEUR_FENETRE
-        font = pygame.font.Font(FONT, 24)
+        font = pygame.font.Font(FONT_TEXT, 24)
 
         # --- Configuration fenêtre --- #
         if FULLSCREEN:

@@ -86,7 +86,7 @@ def play():
         block_texture= create_textures()
 
         # === Fonts ===
-        font = pygame.font.Font(FONT, 24)
+        font = pygame.font.Font(FONT_TEXT, 24)
 
         # === Map ===
         maps = create_simple_maps()

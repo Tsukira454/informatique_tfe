@@ -1,10 +1,4 @@
 import pygame
-import sys
-from pathlib import Path
-
-# === Fix du chemin d'accès ===
-ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
 
 # === Import config propre ===
 from config.config import *
@@ -18,7 +12,8 @@ def finish_menu(reward):
     pygame.init()
     x = LARGER_FENETRE
     y = HAUTEUR_FENETRE
-    font = pygame.font.Font(FONT, 24)
+    font_text = pygame.font.Font(FONT_TEXT, 24)
+    font_special = pygame.font.Font(FONT_SPECIAL, 24)
 
     # === Configuration fenêtre ===
     if FULLSCREEN:
@@ -64,10 +59,25 @@ def finish_menu(reward):
     def reward_blit(reward, block_list_img, block_list_str, reward_final):
         for i in range(len(reward)):
             screen.blit(block_list_img[i], (x//2-SIZE_BLOCK, ((y//10)*2)+(i)*75))
-            text=font.render(f"{reward[str(block_list_str[i])]}", True, TEXT_COLOR)
-            screen.blit(text, (x//2+SIZE_BLOCK, (((y//10)*2)+(i)*75)+10))
-        text=font.render(f"{reward_final}", True, TEXT_COLOR)
-        screen.blit(text, (x//2+SIZE_BLOCK, ((y//10)*2)+(len(reward)+1)*75))
+
+            #---
+            text_0=font_text.render(f"{reward[str(block_list_str[i])]}", True, TEXT_COLOR)
+            text_1=font_special.render(f" + ", True, TEXT_COLOR)
+            text_2=font_text.render(f"{REWARD_VALEUR[str(block_list_str[i])]}", True, TEXT_COLOR)
+            width = text_0.get_width() + text_1.get_width() + text_2.get_width()
+            height = max(text_0.get_height(), text_1.get_height(), text_2.get_height())
+            surface = pygame.Surface((width, height), pygame.SRCALPHA)
+            x_text = 0
+            surface.blit(text_0, (x_text, 0))
+            x_text += text_0.get_width()
+            surface.blit(text_1, (x_text, 0))
+            x_text += text_1.get_width()
+            surface.blit(text_2, (x_text, 0))
+            #---
+
+            screen.blit(surface, (x//2+SIZE_BLOCK, (((y//10)*2)+(i)*75)+10))
+        text=font_text.render(f"Revenue final - {reward_final}", True, TEXT_COLOR)
+        screen.blit(text, ((x//10)*4, ((y//10)*2)+(len(reward)+1)*75))
     btn1_rect = btn_img_play.get_rect(center=(x//2, y//2 + 300))
     
 

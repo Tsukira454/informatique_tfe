@@ -19,7 +19,7 @@ def main_menu():
         pygame.init()
         x = LARGER_FENETRE
         y = HAUTEUR_FENETRE
-        font = pygame.font.Font(FONT, 24)
+        font = pygame.font.Font(FONT_TEXT, 24)
 
         # --- Configuration fenêtre --- #
         if FULLSCREEN:
