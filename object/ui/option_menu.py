@@ -35,13 +35,15 @@ def option_menu():
         background.fill((40, 40, 40))
 
     running = True
-    btn_1 = ButtonSettings(type=3)
-    btn_2 = ButtonSettings(type=1)
     while running:
         for event in pygame.event.get():
-
+            keys = pygame.key.get_pressed()
             if event.type == pygame.QUIT:
                 running = False
+                return False
+            if keys[pygame.K_ESCAPE]:
+                running = False
+                return True
 
         screen.blit(background, (0, 0))
         pygame.display.flip()

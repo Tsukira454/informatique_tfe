@@ -8,10 +8,10 @@ from config.config import *
 from object.others.logger import logger
 
 class save_load():
-    def __init__(self, file="player.json"):
+    def __init__(self, file):
         self.file = file
 
-    def save_data(data=False, file="player.json"):
+    def save_data(file, data=False):
         if data!=False:
             with open(f'{ROOT}/config/accounts/{file}', 'w', encoding='utf-8') as fichier_json:
                 json.dump(data, fichier_json, indent=4, ensure_ascii=False)
@@ -19,9 +19,9 @@ class save_load():
             logger.info(f"Data Erreur : {data}")
             return False
     
-    def load_data(file="player.json"):
+    def load_data(file):
         with open(f'{ROOT}/config/accounts/{file}', 'r', encoding='utf-8') as data:
             return json.load(data)
     
-    def build_data(file="player.json", pseudo="null", money=-1):
+    def build_data(file, pseudo="null", money=-1):
         return {"pseudo" : pseudo, "money" : money}

@@ -17,7 +17,7 @@ from config.config import *
 from object.others.logger import logger
 from object.others.audio_manager import play_bg_music
 
-def play_menu(compte_file="player.json", death=False):
+def play_menu(compte_file, death=False):
     logger.info(f"Entrez dans play_menu avec le compte {compte_file}")
     try:
         pygame.init()
@@ -56,7 +56,7 @@ def play_menu(compte_file="player.json", death=False):
         btn3_rect = btn_img_option.get_rect(topleft=(40,425))
 
         # === Chargement des stats ===
-        data = save_load.load_data()
+        data = save_load.load_data(compte_file)
         # data = {'money' : 2}
         data_keys = list(data.keys())
         data_values = list(data.values())
@@ -86,7 +86,7 @@ def play_menu(compte_file="player.json", death=False):
                     mouse_pos = event.pos
 
                     if btn1_rect.collidepoint(mouse_pos):
-                        play()
+                        play(compte_file)
 
                     if btn2_rect.collidepoint(mouse_pos):
                         boutique()

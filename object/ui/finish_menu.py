@@ -8,7 +8,7 @@ from object.others.audio_manager import stop_bg_music, play_fx
 #from object.ui.play_menu import play_menu
 
 
-def finish_menu(reward):
+def finish_menu(reward, compte_file):
     pygame.init()
     x = LARGER_FENETRE
     y = HAUTEUR_FENETRE
@@ -82,9 +82,11 @@ def finish_menu(reward):
     
 
     # == DATA ===
-    data = save_load.load_data()
-    data = save_load.build_data(pseudo=data["pseudo"], money=(data["money"]+reward_final))
-    save_load.save_data(data)
+    data = save_load.load_data(compte_file)
+    print( "DATA FINISH MENU :", data)
+    data = save_load.build_data(file=compte_file, pseudo=data["pseudo"], money=(data["money"]+reward_final))
+    print( "DATA FINISH MENU APRES AJOUT REWARD :", data)
+    save_load.save_data(file=compte_file, data=data)
     # === Couper la music et mettre la music de mort
     stop_bg_music()
     play_fx("./assets/sounds/music_nexus_death.wav")
@@ -104,8 +106,7 @@ def finish_menu(reward):
                     # Chargement du module play menu ici pour éviter des erreur d'une boucle d'import
                     from object.ui.play_menu import play_menu
                     #compte wait
-                    file="player.json"
-                    play_menu(file, death=True)
+                    play_menu(compte_file, death=True)
 
         screen.blit(background, (0, 0))
         screen.blit(btn_img_play, btn1_rect)

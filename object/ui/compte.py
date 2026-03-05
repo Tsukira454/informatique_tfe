@@ -8,6 +8,7 @@ from ..others.logger import logger
 from ..others.save import *
 from config.config import *
 from ..others.button_compte import *
+from .play_menu import *
 
 def compte_menu():
     logger.info("Entrez dans compte")
@@ -49,7 +50,7 @@ def compte_menu():
             # premier btn est la création d'un compte
             button_new = ButtonCompte(new=True, file=False, data=False)
             surface_btn_new = button_new.button_img()
-            create_compte_btn_rect = surface_btn_new.get_rect(topleft=(LARGER_FENETRE//2-300, (0+1)*250))
+            create_compte_btn_rect = surface_btn_new.get_rect(topleft=(LARGER_FENETRE//2-250, (HAUTEUR_FENETRE//10)+175))
             compte_list.append(surface_btn_new)
             compte_list_rect.append(create_compte_btn_rect)
             compte_child.append(button_new)
@@ -60,7 +61,7 @@ def compte_menu():
                     data = save_load.load_data(file=fichier)
                     button_compte = ButtonCompte(new=False, file=fichier, data=data)
                     button_compte_img = button_compte.button_img()
-                    button_compte_rect=button_compte_img.get_rect(topleft=(LARGER_FENETRE//2-300, (i+1)*250))
+                    button_compte_rect=button_compte_img.get_rect(topleft=(LARGER_FENETRE//2-250, (HAUTEUR_FENETRE//10)+(i+2)*175))
                     compte_list.append(button_compte_img)
                     compte_child.append(button_compte)
                     compte_list_rect.append(button_compte_rect)
@@ -139,7 +140,7 @@ def compte_menu():
                     elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                         if validate_rect and validate_rect.collidepoint(event.pos):
                             logger.info(f"Nom validé : {input_text}")
-                            if len(input_text) > 0:
+                            if len(input_text) >= 3:
                                 popup_open = False
                                 compte_child[0].button_fontion(pseudo=input_text)
                                 compte_list, compte_list_rect, compte_child = compte_load()
@@ -147,7 +148,7 @@ def compte_menu():
                         elif cancel_rect and cancel_rect.collidepoint(event.pos):
                             popup_open = False
 
-                    continue  # ⛔ bloque le reste du menu
+                    continue
 
                 # ================= MENU NORMAL =================
                 if event.type == pygame.KEYDOWN:
@@ -162,16 +163,17 @@ def compte_menu():
                         compte_list, compte_list_rect, compte_child = compte_load()
                         logger.info("Compte rafraichi")
 
-                    if compte_list_rect[0].collidepoint(mouse_pos):
+                    elif compte_list_rect[0].collidepoint(mouse_pos):
                         logger.info("Création d'un compte...")
                         popup_open = True
                         input_text = ""
+                    
                     else:
-                        print("prout")
-                        for i in range(len(compte_list)-1):
+                        for i in range(1, len(compte_list)):
                             if compte_list_rect[i].collidepoint(mouse_pos):
-                                print("caca")
-                                return compte_child[i].button_fontion()
+                                selected_file = compte_child[i].button_fontion()
+                                play_menu(compte_file=selected_file, death=False)
+                                return True
 
 
             screen.blit(background, (0, 0))

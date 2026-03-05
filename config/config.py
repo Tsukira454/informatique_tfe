@@ -6,5 +6,5 @@ FONT_TEXT="./assets/fonts/font1/ka1.ttf"
 FONT_SPECIAL="./assets/fonts/font2/Pixel Game.otf"
 TEXT_COLOR=(255,255,255)
 ACCOUNT_LOCATION="./config/accounts/"
-REWARD_VALEUR={"dirt" : 1, "grass_block" : 1, "stairs" : 0, "stone": 2}
+REWARD_VALEUR={"dirt" : 1, "grass_block" : 1, "stairs" : -1, "stone": 2}
 BLOCK_LIST=["dirt", "grass_block", "stairs", "stone"]

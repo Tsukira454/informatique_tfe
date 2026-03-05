@@ -16,9 +16,10 @@ from object.others.audio_manager import *
 
 
 class Robot:
-    def __init__(self):
+    def __init__(self, compte_file):
         # Sprite
         self.image = []
+        self.compte_file = compte_file
         self.image_bug = pygame.image.load("./assets/sprites/robots/robots_bug.png")
         self.image_bug = pygame.transform.scale(self.image_bug, (SIZE_BLOCK, SIZE_BLOCK))
         self.valeur_image=[0,1,2,3,4,5,6,7,8,20,30,40,50,75,90,100]
@@ -31,8 +32,10 @@ class Robot:
         self.stairs = pygame.transform.scale(self.stairs, (SIZE_BLOCK, SIZE_BLOCK))
         self.pos_x = 0
         self.pos_y = 696
+        self.real_y = self.pos_y
         self.energy = 10
         self.energy_max = 10
+        self.pression = 10
         # Position rectangle
         self.rect = pygame.Rect(self.pos_x, self.pos_y, SIZE_BLOCK, SIZE_BLOCK)
         self.time = 0
@@ -55,13 +58,13 @@ class Robot:
                 self.collected_resources[resource_name] = 0
 
     def play_sound_destroy(self):
-        if random.randint(0,5) == 0:
+        if 0==1:
             play_fx("./assets/sounds/fx_nexus_destroy_rare.mp3")
         else:
             play_fx("./assets/sounds/fx_nexus_destroy.wav")
 
     def end(self):
-        finish_menu(self.collected_resources)
+        finish_menu(self.collected_resources, self.compte_file)
         
     def remove_energy(self, amount):
         self.energy-=amount
@@ -69,7 +72,7 @@ class Robot:
             self.end()
 
     def hud_valeur(self):
-        return {"energy" : self.energy, "energy_max" : self.energy_max, "energy_pourcentage" : (self.energy/self.energy_max)*100, "block_list" : self.collected_resources}
+        return {"energy" : self.energy, "energy_max" : self.energy_max, "energy_pourcentage" : (self.energy/self.energy_max)*100, "block_list" : self.collected_resources, "pression" : self.pression, "y":self.real_y//SIZE_BLOCK}
     def move_gravity(self, maps, collision_tiles):
         if not self.on_ground:
             self.speed_y += self.gravity
@@ -111,8 +114,7 @@ class Robot:
 
         # Calculs communs
         block_x = self.rect.centerx // SIZE_BLOCK
-        real_y = self.get_closest_map_y(maps, self.rect.bottom - 1)
-
+        self.real_y = self.get_closest_map_y(maps, self.rect.bottom - 1)
         # --------- GAUCHE ---------
         if keys[pygame.K_d]:
             self.remove_energy(100)
@@ -124,9 +126,9 @@ class Robot:
                     self.rect.left = tile.right
 
                     target_x = block_x - 1
-                    if real_y in maps and 0 <= target_x < len(maps[real_y]):
-                        self.collected_resources[maps[real_y][target_x]] += 1
-                        maps[real_y][target_x] = "air"
+                    if self.real_y in maps and 0 <= target_x < len(maps[self.real_y]):
+                        self.collected_resources[maps[self.real_y][target_x]] += 1
+                        maps[self.real_y][target_x] = "air"
                         self.play_sound_destroy()
                         self.remove_energy(1)
 
@@ -139,9 +141,9 @@ class Robot:
                     self.rect.right = tile.left
 
                     target_x = block_x + 1
-                    if real_y in maps and 0 <= target_x < len(maps[real_y]):
-                        self.collected_resources[maps[real_y][target_x]] += 1
-                        maps[real_y][target_x] = "air"
+                    if self.real_y in maps and 0 <= target_x < len(maps[self.real_y]):
+                        self.collected_resources[maps[self.real_y][target_x]] += 1
+                        maps[self.real_y][target_x] = "air"
                         self.play_sound_destroy()
                         self.remove_energy(1)
 
@@ -157,8 +159,8 @@ class Robot:
                     self.remove_energy(1)
                 else:
                     # Pose un escalier si bloc au-dessus déjà vide
-                    if real_y in maps:
-                        maps[real_y][block_x] = "stairs"
+                    if self.real_y in maps:
+                        maps[self.real_y][block_x] = "stairs"
 
         # --------- CREUSER EN DESSOUS ---------
         elif keys[pygame.K_DOWN] and self.on_ground:
