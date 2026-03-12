@@ -1,0 +1,21 @@
+Sounds :
+    https://pixabay.com :
+        - destroy.mp3
+    Majinn:
+        - music_nexus_bg.wav
+        - music_nexus_death.wav
+
+Font :
+    https://www.1001fonts.com/karmatic-arcade-font.html
+
+Image pixel art :
+    https://itch.io :
+        - background.png
+        - background_1920x1080.png
+        - inventory.png
+        - BOUTIQUE_assets.png
+    Recherche google image :
+        - background_underground_1.png
+
+logo :
+    - 

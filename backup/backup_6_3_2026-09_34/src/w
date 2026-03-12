@@ -1,0 +1,11 @@
+    for i in range(1, PROFONDEUR_NIVEAUX + 1):
+        level_index = 3 - i
+
+        roll = randint(0, 100)
+        blocs_superieurs = {nom: chance for nom, chance in BLOCK_CHANCE.items() if chance >= roll}
+        bloc_choisi = min(blocs_superieurs, key=lambda x: blocs_superieurs[x])
+
+        level = []
+        level.append(bloc_choisi)
+        print(bloc_choisi)
+        maps[level_y_to_pixel_y(level_index)] = level

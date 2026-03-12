@@ -1,0 +1,11 @@
+LARGER_FENETRE=1920
+HAUTEUR_FENETRE=1080
+FULLSCREEN=True
+SIZE_BLOCK=64
+FONT_TEXT="./assets/fonts/font1/ka1.ttf"
+FONT_SPECIAL="./assets/fonts/font2/Pixel Game.otf"
+TEXT_COLOR=(224, 175, 255)
+ACCOUNT_LOCATION="./config/accounts/"
+REWARD_VALEUR={"dirt" : 1, "grass_block" : 1, "stairs" : -1, "stone": 2, "iron_ore": 3}
+BLOCK_LIST=["dirt", "grass_block", "stairs", "stone", "iron_ore"]
+BLOCK_CHANCE={"dirt":101, "stone":70, "iron_ore":15}

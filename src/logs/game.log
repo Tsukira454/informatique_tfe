@@ -1,0 +1,757 @@
+[2026-03-09 11:23:35] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:23:35] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:23:35] [INFO] Main Menu
+[2026-03-09 11:23:36] [INFO] Entrez dans compte
+[2026-03-09 11:23:36] [INFO] Création d'un compte...
+[2026-03-09 11:23:38] [INFO] Nom validé : ssss
+[2026-03-09 11:23:50] [INFO] Création d'un compte...
+[2026-03-09 11:24:05] [INFO] Nom validé : lol
+[2026-03-09 11:24:11] [INFO] Compte rafraichi
+[2026-03-09 11:26:55] [INFO] Compte choisi -> True
+[2026-03-09 11:26:55] [INFO] Main Menu
+[2026-03-09 11:35:18] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:35:18] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:35:18] [INFO] Main Menu
+[2026-03-09 11:35:27] [INFO] +------ Fin du jeux -----+
+[2026-03-09 11:35:30] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:35:30] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:35:30] [INFO] Main Menu
+[2026-03-09 11:35:33] [INFO] Main Menu
+[2026-03-09 11:35:37] [INFO] Main Menu
+[2026-03-09 11:35:39] [INFO] Main Menu
+[2026-03-09 11:35:45] [INFO] Main Menu
+[2026-03-09 11:35:59] [INFO] Main Menu
+[2026-03-09 11:36:03] [INFO] Main Menu
+[2026-03-09 11:36:12] [INFO] Main Menu
+[2026-03-09 11:36:16] [INFO] Entrez dans compte
+[2026-03-09 11:36:18] [INFO] Entrez dans play_menu avec le compte lol5.json
+[2026-03-09 11:36:28] [INFO] Entrez dans play_menu avec le compte lol5.json
+[2026-03-09 11:36:32] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play.py", line 251, in play
+    maps = robot.update(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 193, in update
+    maps = self.move_input(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 168, in move_input
+    self.remove_energy(1)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 74, in remove_energy
+    self.end()
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 69, in end
+    finish_menu(self.collected_resources, self.compte_file)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\finish_menu.py", line 114, in finish_menu
+    screen.blit(background, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 11:36:32] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play_menu.py", line 93, in play_menu
+    screen.blit(BACKGROUND, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 11:36:32] [INFO] Compte choisi -> True
+[2026-03-09 11:36:32] [INFO] Main Menu
+[2026-03-09 11:36:43] [INFO] Main Menu
+[2026-03-09 11:36:45] [INFO] Main Menu
+[2026-03-09 11:36:45] [INFO] +------ Fin du jeux -----+
+[2026-03-09 11:39:01] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:39:01] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:39:01] [INFO] Main Menu
+[2026-03-09 11:39:03] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:03] [INFO] Main Menu
+[2026-03-09 11:39:04] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:04] [INFO] Main Menu
+[2026-03-09 11:39:04] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:04] [INFO] Main Menu
+[2026-03-09 11:39:04] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:04] [INFO] Main Menu
+[2026-03-09 11:39:04] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:04] [INFO] Main Menu
+[2026-03-09 11:39:05] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:05] [INFO] Main Menu
+[2026-03-09 11:39:06] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:06] [INFO] Main Menu
+[2026-03-09 11:39:06] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:06] [INFO] Main Menu
+[2026-03-09 11:39:07] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:07] [INFO] Main Menu
+[2026-03-09 11:39:08] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:08] [INFO] Main Menu
+[2026-03-09 11:39:08] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=350, direction=bird_D[randint(0,2)]))
+                                       ~~~~~~^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2026-03-09 11:39:08] [INFO] Main Menu
+[2026-03-09 11:39:09] [INFO] +------ Fin du jeux -----+
+[2026-03-09 11:39:30] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:39:30] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:39:30] [INFO] Main Menu
+[2026-03-09 11:40:23] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:40:23] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:40:23] [INFO] Main Menu
+[2026-03-09 11:40:24] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=randint(1000,HAUTEUR_FENETRE-100), direction=bird_D[randint(0,1)]))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elvin\AppData\Local\Programs\Python\Python312\Lib\random.py", line 336, in randint
+    return self.randrange(a, b+1)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elvin\AppData\Local\Programs\Python\Python312\Lib\random.py", line 319, in randrange
+    raise ValueError(f"empty range in randrange({start}, {stop})")
+ValueError: empty range in randrange(1000, 981)
+[2026-03-09 11:40:24] [INFO] Main Menu
+[2026-03-09 11:40:25] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=randint(1000,HAUTEUR_FENETRE-100), direction=bird_D[randint(0,1)]))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elvin\AppData\Local\Programs\Python\Python312\Lib\random.py", line 336, in randint
+    return self.randrange(a, b+1)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elvin\AppData\Local\Programs\Python\Python312\Lib\random.py", line 319, in randrange
+    raise ValueError(f"empty range in randrange({start}, {stop})")
+ValueError: empty range in randrange(1000, 981)
+[2026-03-09 11:40:25] [INFO] Main Menu
+[2026-03-09 11:40:25] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=randint(1000,HAUTEUR_FENETRE-100), direction=bird_D[randint(0,1)]))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elvin\AppData\Local\Programs\Python\Python312\Lib\random.py", line 336, in randint
+    return self.randrange(a, b+1)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elvin\AppData\Local\Programs\Python\Python312\Lib\random.py", line 319, in randrange
+    raise ValueError(f"empty range in randrange({start}, {stop})")
+ValueError: empty range in randrange(1000, 981)
+[2026-03-09 11:40:25] [INFO] Main Menu
+[2026-03-09 11:40:27] [ERROR] Main_menu erreur -> 
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\main_menu.py", line 84, in main_menu
+    birds.append(Bird(y=randint(1000,HAUTEUR_FENETRE-100), direction=bird_D[randint(0,1)]))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elvin\AppData\Local\Programs\Python\Python312\Lib\random.py", line 336, in randint
+    return self.randrange(a, b+1)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\elvin\AppData\Local\Programs\Python\Python312\Lib\random.py", line 319, in randrange
+    raise ValueError(f"empty range in randrange({start}, {stop})")
+ValueError: empty range in randrange(1000, 981)
+[2026-03-09 11:40:27] [INFO] Main Menu
+[2026-03-09 11:40:37] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:40:37] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:40:37] [INFO] Main Menu
+[2026-03-09 11:40:52] [INFO] +------ Fin du jeux -----+
+[2026-03-09 11:41:19] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:41:19] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:41:19] [INFO] Main Menu
+[2026-03-09 11:41:20] [INFO] Entrez dans compte
+[2026-03-09 11:41:21] [INFO] Compte choisi -> True
+[2026-03-09 11:41:21] [INFO] Main Menu
+[2026-03-09 11:41:24] [INFO] +------ Fin du jeux -----+
+[2026-03-09 11:42:55] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:42:55] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:42:55] [INFO] Main Menu
+[2026-03-09 11:43:36] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:43:36] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:43:36] [INFO] Main Menu
+[2026-03-09 11:43:48] [INFO] +------ Fin du jeux -----+
+[2026-03-09 11:48:12] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:48:12] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:48:12] [INFO] Main Menu
+[2026-03-09 11:48:13] [INFO] Entrez dans compte
+[2026-03-09 11:48:14] [INFO] Compte choisi -> True
+[2026-03-09 11:48:14] [INFO] Main Menu
+[2026-03-09 11:48:25] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:48:25] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:48:25] [INFO] Main Menu
+[2026-03-09 11:48:44] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:48:44] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:48:44] [INFO] Main Menu
+[2026-03-09 11:58:08] [INFO] +------ Fin du jeux -----+
+[2026-03-09 11:58:11] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 11:58:11] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 11:58:11] [INFO] Main Menu
+[2026-03-09 11:58:47] [INFO] +------ Fin du jeux -----+
+[2026-03-09 12:05:08] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-03-09 12:05:08] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-03-09 12:05:08] [INFO] Main Menu
+[2026-03-09 12:05:39] [INFO] Entrez dans compte
+[2026-03-09 12:05:44] [INFO] Création d'un compte...
+[2026-03-09 12:05:51] [INFO] Nom validé : dsauup
+[2026-03-09 12:05:57] [INFO] Entrez dans play_menu avec le compte dsauup6.json
+[2026-03-09 12:06:24] [INFO] Entrez dans play_menu avec le compte dsauup6.json
+[2026-03-09 12:07:01] [INFO] Entrez dans play_menu avec le compte dsauup6.json
+[2026-03-09 12:07:18] [INFO] Entrez dans play_menu avec le compte dsauup6.json
+[2026-03-09 12:07:35] [INFO] Entrez dans play_menu avec le compte dsauup6.json
+[2026-03-09 12:07:57] [INFO] Entrez dans play_menu avec le compte dsauup6.json
+[2026-03-09 12:08:16] [INFO] Entrez dans play_menu avec le compte dsauup6.json
+[2026-03-09 12:08:40] [INFO] Entrez dans play_menu avec le compte dsauup6.json
+[2026-03-09 12:08:54] [INFO] Config sauvegardee : (1920, 1080), fullscreen=False, color=(255, 215, 0)
+[2026-03-09 12:08:59] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play.py", line 251, in play
+    maps = robot.update(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 193, in update
+    maps = self.move_input(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 187, in move_input
+    self.remove_energy(1)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 74, in remove_energy
+    self.end()
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 69, in end
+    finish_menu(self.collected_resources, self.compte_file)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\finish_menu.py", line 114, in finish_menu
+    screen.blit(background, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play_menu.py", line 93, in play_menu
+    screen.blit(BACKGROUND, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play.py", line 251, in play
+    maps = robot.update(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 193, in update
+    maps = self.move_input(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 187, in move_input
+    self.remove_energy(1)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 74, in remove_energy
+    self.end()
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 69, in end
+    finish_menu(self.collected_resources, self.compte_file)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\finish_menu.py", line 114, in finish_menu
+    screen.blit(background, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play_menu.py", line 93, in play_menu
+    screen.blit(BACKGROUND, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play.py", line 251, in play
+    maps = robot.update(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 193, in update
+    maps = self.move_input(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 187, in move_input
+    self.remove_energy(1)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 74, in remove_energy
+    self.end()
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 69, in end
+    finish_menu(self.collected_resources, self.compte_file)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\finish_menu.py", line 114, in finish_menu
+    screen.blit(background, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play_menu.py", line 93, in play_menu
+    screen.blit(BACKGROUND, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play.py", line 251, in play
+    maps = robot.update(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 193, in update
+    maps = self.move_input(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 187, in move_input
+    self.remove_energy(1)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 74, in remove_energy
+    self.end()
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 69, in end
+    finish_menu(self.collected_resources, self.compte_file)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\finish_menu.py", line 114, in finish_menu
+    screen.blit(background, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play_menu.py", line 93, in play_menu
+    screen.blit(BACKGROUND, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play.py", line 251, in play
+    maps = robot.update(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 193, in update
+    maps = self.move_input(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 142, in move_input
+    self.remove_energy(1)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 74, in remove_energy
+    self.end()
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 69, in end
+    finish_menu(self.collected_resources, self.compte_file)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\finish_menu.py", line 114, in finish_menu
+    screen.blit(background, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play_menu.py", line 93, in play_menu
+    screen.blit(BACKGROUND, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play.py", line 251, in play
+    maps = robot.update(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 193, in update
+    maps = self.move_input(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 157, in move_input
+    self.remove_energy(1)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 74, in remove_energy
+    self.end()
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 69, in end
+    finish_menu(self.collected_resources, self.compte_file)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\finish_menu.py", line 114, in finish_menu
+    screen.blit(background, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play_menu.py", line 93, in play_menu
+    screen.blit(BACKGROUND, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play.py", line 251, in play
+    maps = robot.update(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 193, in update
+    maps = self.move_input(maps, collision_tiles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 187, in move_input
+    self.remove_energy(1)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 74, in remove_energy
+    self.end()
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\personnages\robot.py", line 69, in end
+    finish_menu(self.collected_resources, self.compte_file)
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\finish_menu.py", line 114, in finish_menu
+    screen.blit(background, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\elvin\Desktop\3 - codes\informatique_tfe\tfe\src\data\object\ui\play_menu.py", line 93, in play_menu
+    screen.blit(BACKGROUND, (0, 0))
+pygame.error: display Surface quit
+[2026-03-09 12:08:59] [INFO] Compte choisi -> True
+[2026-03-09 12:08:59] [INFO] Main Menu
+[2026-03-09 12:09:10] [INFO] +------ Fin du jeux -----+
