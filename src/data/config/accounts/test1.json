@@ -1,0 +1,8 @@
+{
+    "pseudo": "test",
+    "money": 650.0,
+    "inventory": {
+        "energy": 50,
+        "pression": 1
+    }
+}

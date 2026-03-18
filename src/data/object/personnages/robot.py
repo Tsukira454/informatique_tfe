@@ -1,16 +1,10 @@
 import pygame
 import sys
 from pathlib import Path
-from math import floor
-import time
 import os
-import random
-
-ROOT = Path(__file__).resolve().parents[3]
-sys.path.insert(0, str(ROOT))
-
+from ..others.save import *
 from config.config import *
-from object.ui.finish_menu import finish_menu
+from object.games.finish_menu import finish_menu
 from object.others.logger import logger
 from object.others.audio_manager import *
 
@@ -20,6 +14,7 @@ class Robot:
         # Sprite
         self.image = []
         self.compte_file = compte_file
+        self.compte_data = save_load.load_data(compte_file)
         self.image_bug = pygame.image.load(ROOT_LOCATION / "assets/images/sprites/robots/robots_bug.png")
         self.image_bug = pygame.transform.scale(self.image_bug, (SIZE_BLOCK, SIZE_BLOCK))
         self.valeur_image=[0,1,2,3,4,5,6,7,8,20,30,40,50,75,90,100]
@@ -32,13 +27,14 @@ class Robot:
         self.pos_x = 0
         self.pos_y = 696
         self.real_y = self.pos_y
-        self.energy = 10
-        self.energy_max = 10
-        self.pression = 8
-        # Position rectangle
+        self.energy_data = self.compte_data["inventory"]["energy"]
+        self.pression_data = self.compte_data["inventory"]["pression"]
+        self.energy = float(SPECIAL_ITEM_DIC["energy"][1]) * (float(SPECIAL_ITEM_DIC["energy"][2]) ** self.energy_data)
+        self.energy_max = self.energy
+        self.pression = float(SPECIAL_ITEM_DIC["pression"][1]) * (float(SPECIAL_ITEM_DIC["pression"][2]) ** self.pression_data)
+                # Position rectangle
         self.rect = pygame.Rect(self.pos_x, self.pos_y, SIZE_BLOCK, SIZE_BLOCK)
         self.time = 0
-
         # Physique
         self.speed_x = SIZE_BLOCK
         self.speed_y = 0

@@ -23,5 +23,7 @@ class save_load():
         with open(f'{ROOT}/config/accounts/{file}', 'r', encoding='utf-8') as data:
             return json.load(data)
     
-    def build_data(file, pseudo="null", money=-1):
-        return {"pseudo" : pseudo, "money" : money}
+    def build_data(file, pseudo="null", money=-1, inventory=None):
+        if inventory is None:
+            inventory = {"energy": 1, "pression": 1}
+        return {"pseudo": pseudo, "money": money, "inventory": inventory}

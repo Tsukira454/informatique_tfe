@@ -3,7 +3,7 @@ import pygame
 import os
 import json
 from config.config import *
-from object.ui.finish_menu import finish_menu
+from object.games.finish_menu import finish_menu
 
 
 class ButtonCompte:
@@ -43,7 +43,8 @@ class ButtonCompte:
                 if fichier.lower().endswith(".json"):
                     account_number += 1
             file_path = ACCOUNT_LOCATION / f"{pseudo}{account_number + 1}.json"
-            data = {"pseudo": pseudo, "money": 0}
+            inventory={"energy" : 1, "pression" : 1}
+            data = {"pseudo": pseudo, "money": 0, "inventory":inventory}
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=4)
         else:
