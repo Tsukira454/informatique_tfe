@@ -3,20 +3,13 @@ import threading
 from pathlib import Path
 
 class Three_D:
-    def __init__(self, folder_images, width, height, frame_delay=1):
+    def __init__(self, images, frame_delay=1):
         self.frame = 0
         self.anim_timer = 0
         self.frame_delay = frame_delay
-        self.images = []
-        self.loaded = False
-        self.width = width
-        self.height = height
-        self.file_number = len(list(folder_images.glob("*.png")))
-        self.folder_images = folder_images
-
-        thread = threading.Thread(target=self._load_images)
-        thread.daemon = True
-        thread.start()
+        self.images = images
+        self.file_number = len(images)
+        self.loaded = True 
 
     def _load_images(self):
         images = []

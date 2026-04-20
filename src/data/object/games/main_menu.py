@@ -1,6 +1,4 @@
 import pygame
-import sys
-from pathlib import Path
 from random import randint
 # === Import config propre === #
 from config.config import *
@@ -34,6 +32,8 @@ def main_menu():
         btn_img_play = load_btn(ROOT_LOCATION / "./assets/images/ui/ui_btn_4_play.png")
         btn_img_option = load_btn(ROOT_LOCATION / "./assets/images/ui/ui_btn_4_options.png")
         btn_img_quitter = load_btn(ROOT_LOCATION / "./assets/images/ui/ui_btn_4_quitter.png")
+        title_img=pygame.image.load(ROOT_LOCATION / "assets/images/images/title.png")
+        title_img=pygame.transform.scale(title_img, (1200,125))
         btn_credit = pygame.Surface((150, 40), pygame.SRCALPHA)
 
         text_credit = font.render("Credits", True, (255, 255, 255))
@@ -90,6 +90,7 @@ def main_menu():
             screen.blit(btn_img_quitter, btn3_rect)
             screen.blit(text_credit, (LARGER_FENETRE-150, HAUTEUR_FENETRE-35))
             screen.blit(btn_credit, (150, 35))
+            screen.blit(title_img, ((LARGER_FENETRE - title_img.get_width()) // 2, (title_img.get_height()//2)))
             for p in particles:
                 p.update()
                 p.draw(screen)

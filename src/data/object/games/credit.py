@@ -1,15 +1,7 @@
 # Elvin Mouyart
 # UTF-8
 import pygame
-import sys
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
-
 from config.config import *
-from object.maps.simple_maps import create_simple_maps
-from object.personnages.robot import Robot
 from object.others.logger import logger
 
 def credit_menu():

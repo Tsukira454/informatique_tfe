@@ -6,11 +6,9 @@ from object.others.logger import logger
 from object.games.main_menu import main_menu
 from object.games.play_menu import play_menu
 from object.games.option_menu import option_menu
-from object.others.save import save_load
 from object.games.compte import compte_menu
 from config.config import *
 from object.others.audio_manager import play_bg_music
-
 
 
 def play_music():

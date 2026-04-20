@@ -1,28 +1,32 @@
 import json
-import sys
 from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
+from cryptography.fernet import Fernet
 from config.config import *
 from object.others.logger import logger
+
+SECRET_KEY = b'r-h6ZS1saE2ecNk_dw4_-mFmHDSeMerH_r9XmXWTp-M='
+cipher = Fernet(SECRET_KEY)
 
 class save_load():
     def __init__(self, file):
         self.file = file
 
     def save_data(file, data=False):
-        if data!=False:
-            with open(f'{ROOT}/config/accounts/{file}', 'w', encoding='utf-8') as fichier_json:
-                json.dump(data, fichier_json, indent=4, ensure_ascii=False)
+        if data != False:
+            content = json.dumps(data, indent=4, ensure_ascii=False).encode()
+            encrypted = cipher.encrypt(content)
+            with open(ACCOUNT_LOCATION / f'{file}', 'wb') as f:  # ← 'wb' binaire
+                f.write(encrypted)
         else:
             logger.info(f"Data Erreur : {data}")
             return False
-    
+
     def load_data(file):
-        with open(f'{ROOT}/config/accounts/{file}', 'r', encoding='utf-8') as data:
-            return json.load(data)
-    
+        with open(ACCOUNT_LOCATION / f'{file}', 'rb') as f:  # ← 'rb' binaire
+            encrypted = f.read()
+        content = cipher.decrypt(encrypted)
+        return json.loads(content.decode())
+
     def build_data(file, pseudo="null", money=-1, inventory=None):
         if inventory is None:
             inventory = {"energy": 1, "pression": 1}

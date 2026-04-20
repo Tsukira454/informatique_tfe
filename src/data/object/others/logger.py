@@ -3,7 +3,7 @@ import os
 from config.config import *
 
 def setup_logger():
-    os.makedirs("logs", exist_ok=True)
+    os.makedirs(ROOT_LOCATION / "logs", exist_ok=True)
 
     logger = logging.getLogger("NexusExtraction")
     logger.setLevel(logging.DEBUG)

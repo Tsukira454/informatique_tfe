@@ -48,4 +48,5 @@ class ButtonBoutique:
             print(f"new_data: {new_data}")  # ← et ça
             save_load.save_data(file=self.compte_file, data=new_data)
             return True
+        play_fx(ROOT_LOCATION / "assets/sounds/denied.mp3")
         return False
