@@ -1,4 +1,5 @@
 import json
+import uuid as uuid_lib
 from pathlib import Path
 from cryptography.fernet import Fernet
 from config.config import *
@@ -27,7 +28,9 @@ class save_load():
         content = cipher.decrypt(encrypted)
         return json.loads(content.decode())
 
-    def build_data(file, pseudo="null", money=-1, inventory=None):
+    def build_data(file, pseudo="null", money=-1, inventory=None, account_uuid=None):
         if inventory is None:
             inventory = {"energy": 1, "pression": 1}
-        return {"pseudo": pseudo, "money": money, "inventory": inventory}
+        if account_uuid is None:
+            account_uuid = str(uuid_lib.uuid4())
+        return {"pseudo": pseudo, "money": money, "inventory": inventory, "uuid": account_uuid}

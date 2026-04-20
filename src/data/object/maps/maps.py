@@ -14,70 +14,108 @@ def create_simple_maps(asset_manager, maps_level):
     def level_y_to_pixel_y(level_index):
         # Convertit un index de ligne en position Y en pixels
         return level_index * block_size
+    def _galeries(maps, placed_cavities, surface_y, min_y):
+        """Creuse des tunnels de 2 blocs entre cavités voisines (triées par x)."""
+        if len(placed_cavities) < 2:
+            return maps
+
+        sorted_cavites = sorted(placed_cavities, key=lambda c: c[0])
+
+        for i in range(len(sorted_cavites) - 1):
+            x1, y1 = sorted_cavites[i][0],     sorted_cavites[i][1]
+            x2, y2 = sorted_cavites[i + 1][0], sorted_cavites[i + 1][1]
+
+            dist_x        = abs(x2 - x1)
+            dist_y_blocs  = abs(y2 - y1) / SIZE_BLOCK
+
+            # Ne connecte que les voisines pas trop éloignées
+            if dist_x > 14 or dist_y_blocs > 7:
+                continue
+
+            steps = max(dist_x, 1)
+            for step in range(steps + 1):
+                t  = step / steps
+                cx = round(x1 + (x2 - x1) * t)
+                cy_snap = round((y1 + (y2 - y1) * t) / SIZE_BLOCK) * SIZE_BLOCK
+
+                if cy_snap >= surface_y or cy_snap < min_y:
+                    continue
+
+                # 2 blocs de haut (sol + plafond du tunnel)
+                for dh in range(2):
+                    ty = cy_snap + dh * SIZE_BLOCK
+                    if ty in maps and 0 <= cx < len(maps[ty]):
+                        maps[ty][cx] = "air"
+
+        return maps
+
     def cavity_generator(maps, placed_cavities):
         import math
-        
+
         bedrock_y = level_y_to_pixel_y(4 - PROFONDEUR_PAR_WORLD - 1)
-        min_y = bedrock_y + SIZE_BLOCK * 5  # marge au-dessus de la bedrock
-        
+        surface_y = level_y_to_pixel_y(3)          # premier bloc underground
+        min_y     = bedrock_y + SIZE_BLOCK * 4     # marge au-dessus de la bedrock
+
+        nb_cavites = randint(5, 9)
         tentatives = 0
-        nb_cavites = randint(4, 8)
-        
-        while len(placed_cavities) < nb_cavites and tentatives < 100:
+
+        while len(placed_cavities) < nb_cavites and tentatives < 200:
             tentatives += 1
-            
-            # taille aléatoire
-            rayon_x = randint(5, 10)  # plus large
-            rayon_y = randint(2, 4)   # moins haut
-            
-            # position aléatoire
-            coo_x = randint(rayon_x + 1, width_in_blocks - rayon_x - 1)
-            coo_y = level_y_to_pixel_y(randint(-PROFONDEUR_PAR_WORLD + rayon_y + 5, 2))
-            
-            # vérifie qu'on est pas trop proche de la bedrock
+
+            rayon_x = randint(4, 9)
+            rayon_y = randint(2, 4)
+
+            # Plage y en index de niveau, assez loin de la surface ET de la bedrock
+            max_level = -rayon_y - 2
+            min_level = -PROFONDEUR_PAR_WORLD + rayon_y + 4
+            if min_level > max_level:
+                continue
+
+            coo_x = randint(rayon_x + 2, width_in_blocks - rayon_x - 2)
+            coo_y = level_y_to_pixel_y(randint(min_level, max_level))
+
+            # Garde de sécurité bedrock et surface
             if coo_y - rayon_y * SIZE_BLOCK < min_y:
                 continue
-            
-            # vérifie qu'on chevauche pas une cavité existante
+            if coo_y + rayon_y * SIZE_BLOCK >= surface_y:
+                continue
+
+            # Vérifie chevauchement avec cavités existantes (marge +3 blocs)
             trop_proche = False
             for (ex, ey, erx, ery) in placed_cavities:
                 dist_x = abs(coo_x - ex)
                 dist_y = abs(coo_y - ey) / SIZE_BLOCK
-                if dist_x < rayon_x + erx + 2 and dist_y < rayon_y + ery + 2:
+                if dist_x < rayon_x + erx + 3 and dist_y < rayon_y + ery + 2:
                     trop_proche = True
                     break
-            
+
             if trop_proche:
                 continue
-            
-            # contenu
+
             water = randint(0, 1) == 1
-            
-            # dessin ellipse
+
+            # Dessin ellipse
             for i_h in range(-rayon_y, rayon_y + 1):
-                target_y = coo_y + (SIZE_BLOCK * i_h)
+                target_y = coo_y + SIZE_BLOCK * i_h
                 if target_y not in maps:
                     continue
-                if target_y < min_y:
-                    continue
-                
-                # largeur de l'ellipse à cette hauteur
+
                 rapport = 1 - (i_h / rayon_y) ** 2
                 largeur = int(rayon_x * math.sqrt(max(0, rapport)))
-                
+
                 for i_l in range(-largeur, largeur + 1):
                     target_x = coo_x + i_l
                     if 0 <= target_x < len(maps[target_y]):
-                        if i_h == -rayon_y:          # ligne du haut = full
+                        if i_h == -rayon_y:        # fond de la cavité = liquide plein
                             maps[target_y][target_x] = "water_full" if water else "lava_full"
-                        elif i_h == -rayon_y + 1:    # ligne juste en dessous = normal
+                        elif i_h == -rayon_y + 1:  # surface du liquide
                             maps[target_y][target_x] = "water" if water else "lava"
                         else:
                             maps[target_y][target_x] = "air"
 
-            
             placed_cavities.append((coo_x, coo_y, rayon_x, rayon_y))
-        
+
+        maps = _galeries(maps, placed_cavities, surface_y, min_y)
         return maps, placed_cavities
     
     def top_maps(maps):

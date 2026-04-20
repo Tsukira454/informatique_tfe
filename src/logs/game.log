@@ -13321,3 +13321,744 @@ pygame.error: display Surface quit
 [2026-04-20 10:55:00] [INFO] Compte choisi -> True
 [2026-04-20 10:55:00] [INFO] Main Menu
 [2026-04-20 10:55:00] [INFO] +------ Fin du jeux -----+
+[2026-04-20 18:12:22] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-04-20 18:12:22] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-04-20 18:12:22] [INFO] Main Menu
+[2026-04-20 18:12:27] [INFO] Entrez dans compte
+[2026-04-20 18:12:29] [INFO] Entrez dans load_menu avec le compte -> tsukira2.json
+[2026-04-20 18:12:29] [INFO] Chargement de title-> 1/331 | 0%
+[2026-04-20 18:12:29] [INFO] Chargement de creator-> 2/331 | 0%
+[2026-04-20 18:12:29] [INFO] Chargement de creator-> 2/331 | 0%
+[2026-04-20 18:12:29] [INFO] Chargement de creator-> 2/331 | 0%
+[2026-04-20 18:12:29] [INFO] Chargement de creator-> 2/331 | 0%
+[2026-04-20 18:12:29] [INFO] Chargement de creator-> 2/331 | 0%
+[2026-04-20 18:12:29] [INFO] Chargement de creator-> 2/331 | 0%
+[2026-04-20 18:12:29] [INFO] Chargement de creator-> 2/331 | 0%
+[2026-04-20 18:12:29] [INFO] Chargement de creator-> 2/331 | 0%
+[2026-04-20 18:12:29] [INFO] Chargement de music_creator-> 3/331 | 0%
+[2026-04-20 18:12:29] [INFO] Chargement de the_void-> 4/331 | 1%
+[2026-04-20 18:12:29] [INFO] Chargement de the_void-> 4/331 | 1%
+[2026-04-20 18:12:29] [INFO] Chargement de the_void_full-> 5/331 | 1%
+[2026-04-20 18:12:29] [INFO] Chargement de the_void_full-> 5/331 | 1%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_1-> 6/331 | 1%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_1-> 6/331 | 1%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_3-> 8/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de underground_3-> 8/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_play_menu-> 9/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_play_menu-> 9/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_play_menu-> 9/331 | 2%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_boutique_menu-> 10/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_boutique_menu-> 10/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_boutique_menu-> 10/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_option_menu-> 11/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_option_menu-> 11/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_option_menu-> 11/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_play-> 12/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_play-> 12/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_play-> 12/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_quitter-> 13/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_quitter-> 13/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_quitter-> 13/331 | 3%
+[2026-04-20 18:12:29] [INFO] Chargement de btn_compte-> 14/331 | 4%
+[2026-04-20 18:12:29] [INFO] Chargement de refresh_btn-> 15/331 | 4%
+[2026-04-20 18:12:29] [INFO] Chargement de boutique_bg-> 17/331 | 5%
+[2026-04-20 18:12:29] [INFO] Chargement de boutique_bg-> 17/331 | 5%
+[2026-04-20 18:12:29] [INFO] Chargement de boutique_energy-> 19/331 | 5%
+[2026-04-20 18:12:29] [INFO] Chargement de boutique_pression-> 20/331 | 6%
+[2026-04-20 18:12:29] [INFO] Chargement de blue_storm-> 22/331 | 6%
+[2026-04-20 18:12:29] [INFO] Chargement de danger-> 23/331 | 6%
+[2026-04-20 18:12:29] [INFO] Chargement de pression_icon-> 24/331 | 7%
+[2026-04-20 18:12:29] [INFO] Chargement de grass_block-> 26/331 | 7%
+[2026-04-20 18:12:29] [INFO] Chargement de iron_ore-> 29/331 | 8%
+[2026-04-20 18:12:29] [INFO] Chargement de oak_planks-> 32/331 | 9%
+[2026-04-20 18:12:29] [INFO] Chargement de oak_strairs_R-> 35/331 | 10%
+[2026-04-20 18:12:29] [INFO] Chargement de deepslate_coal_ore-> 38/331 | 11%
+[2026-04-20 18:12:29] [INFO] Chargement de deepslate_iron_ore-> 41/331 | 12%
+[2026-04-20 18:12:29] [INFO] Chargement de deepslate_emerald_ore-> 43/331 | 12%
+[2026-04-20 18:12:29] [INFO] Chargement de deepslate_lapis_ore-> 45/331 | 13%
+[2026-04-20 18:12:29] [INFO] Chargement de cobblestone-> 47/331 | 14%
+[2026-04-20 18:12:29] [INFO] Chargement de water_full-> 50/331 | 15%
+[2026-04-20 18:12:29] [INFO] Chargement de robot_0-> 53/331 | 16%
+[2026-04-20 18:12:29] [INFO] Chargement de robot_2-> 55/331 | 16%
+[2026-04-20 18:12:29] [INFO] Chargement de robot_5-> 58/331 | 17%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_8-> 61/331 | 18%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_40-> 64/331 | 19%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_90-> 67/331 | 20%
+[2026-04-20 18:12:30] [INFO] Chargement de bird_3-> 72/331 | 21%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0001-> 73/331 | 22%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0002-> 74/331 | 22%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0003-> 75/331 | 22%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0004-> 76/331 | 22%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0005-> 77/331 | 23%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0006-> 78/331 | 23%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0007-> 79/331 | 23%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0008-> 80/331 | 24%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0009-> 81/331 | 24%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0010-> 82/331 | 24%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0011-> 83/331 | 25%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0012-> 84/331 | 25%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0013-> 85/331 | 25%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0014-> 86/331 | 25%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0015-> 87/331 | 26%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0016-> 88/331 | 26%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0017-> 89/331 | 26%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0018-> 90/331 | 27%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0019-> 91/331 | 27%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0020-> 92/331 | 27%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0021-> 93/331 | 28%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0022-> 94/331 | 28%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0023-> 95/331 | 28%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0024-> 96/331 | 29%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0025-> 97/331 | 29%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0026-> 98/331 | 29%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0027-> 99/331 | 29%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0028-> 100/331 | 30%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0029-> 101/331 | 30%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0030-> 102/331 | 30%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0031-> 103/331 | 31%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0032-> 104/331 | 31%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0033-> 105/331 | 31%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0034-> 106/331 | 32%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0035-> 107/331 | 32%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0036-> 108/331 | 32%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0037-> 109/331 | 32%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0038-> 110/331 | 33%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0039-> 111/331 | 33%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0040-> 112/331 | 33%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0041-> 113/331 | 34%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0042-> 114/331 | 34%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0043-> 115/331 | 34%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0044-> 116/331 | 35%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0045-> 117/331 | 35%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0046-> 118/331 | 35%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0047-> 119/331 | 35%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0048-> 120/331 | 36%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0049-> 121/331 | 36%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0050-> 122/331 | 36%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0051-> 123/331 | 37%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0052-> 124/331 | 37%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0053-> 125/331 | 37%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0054-> 126/331 | 38%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0055-> 127/331 | 38%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0056-> 128/331 | 38%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0057-> 129/331 | 38%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0058-> 130/331 | 39%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0059-> 131/331 | 39%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0060-> 132/331 | 39%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0061-> 133/331 | 40%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0062-> 134/331 | 40%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0063-> 135/331 | 40%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0064-> 136/331 | 41%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0065-> 137/331 | 41%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0066-> 138/331 | 41%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0067-> 139/331 | 41%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0068-> 140/331 | 42%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0069-> 141/331 | 42%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0070-> 142/331 | 42%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0071-> 143/331 | 43%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0072-> 144/331 | 43%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0073-> 145/331 | 43%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0074-> 146/331 | 44%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0075-> 147/331 | 44%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0076-> 148/331 | 44%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0077-> 149/331 | 45%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0078-> 150/331 | 45%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0079-> 151/331 | 45%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0080-> 152/331 | 45%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0081-> 153/331 | 46%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0082-> 154/331 | 46%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0083-> 155/331 | 46%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0084-> 156/331 | 47%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0085-> 157/331 | 47%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0086-> 158/331 | 47%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0087-> 159/331 | 48%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0088-> 160/331 | 48%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0089-> 161/331 | 48%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0090-> 162/331 | 48%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0091-> 163/331 | 49%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0092-> 164/331 | 49%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0093-> 165/331 | 49%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0094-> 166/331 | 50%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0095-> 167/331 | 50%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0096-> 168/331 | 50%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0097-> 169/331 | 51%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0098-> 170/331 | 51%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0099-> 171/331 | 51%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0100-> 172/331 | 51%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0101-> 173/331 | 52%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0102-> 174/331 | 52%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0103-> 175/331 | 52%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0104-> 176/331 | 53%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0105-> 177/331 | 53%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0106-> 178/331 | 53%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0107-> 179/331 | 54%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0108-> 180/331 | 54%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0109-> 181/331 | 54%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0110-> 182/331 | 54%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0111-> 183/331 | 55%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0112-> 184/331 | 55%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0113-> 185/331 | 55%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0114-> 186/331 | 56%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0115-> 187/331 | 56%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0116-> 188/331 | 56%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0117-> 189/331 | 57%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0118-> 190/331 | 57%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0119-> 191/331 | 57%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0120-> 192/331 | 58%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0121-> 193/331 | 58%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0122-> 194/331 | 58%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0123-> 195/331 | 58%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0124-> 196/331 | 59%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0125-> 197/331 | 59%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0126-> 198/331 | 59%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0127-> 199/331 | 60%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0128-> 200/331 | 60%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0129-> 201/331 | 60%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0130-> 202/331 | 61%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0131-> 203/331 | 61%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0132-> 204/331 | 61%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0133-> 205/331 | 61%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0134-> 206/331 | 62%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0135-> 207/331 | 62%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0136-> 208/331 | 62%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0137-> 209/331 | 63%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0138-> 210/331 | 63%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0139-> 211/331 | 63%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0140-> 212/331 | 64%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0141-> 213/331 | 64%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0142-> 214/331 | 64%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0143-> 215/331 | 64%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0144-> 216/331 | 65%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0145-> 217/331 | 65%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0146-> 218/331 | 65%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0147-> 219/331 | 66%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0148-> 220/331 | 66%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0149-> 221/331 | 66%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0150-> 222/331 | 67%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0151-> 223/331 | 67%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0152-> 224/331 | 67%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0153-> 225/331 | 67%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0154-> 226/331 | 68%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0155-> 227/331 | 68%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0156-> 228/331 | 68%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0157-> 229/331 | 69%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0158-> 230/331 | 69%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0159-> 231/331 | 69%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0160-> 232/331 | 70%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0161-> 233/331 | 70%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0162-> 234/331 | 70%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0163-> 235/331 | 70%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0164-> 236/331 | 71%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0165-> 237/331 | 71%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0166-> 238/331 | 71%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0167-> 239/331 | 72%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0168-> 240/331 | 72%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0169-> 241/331 | 72%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0170-> 242/331 | 73%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0171-> 243/331 | 73%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0172-> 244/331 | 73%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0173-> 245/331 | 74%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0174-> 246/331 | 74%
+[2026-04-20 18:12:30] [INFO] Chargement de robot_3d_0175-> 247/331 | 74%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0176-> 248/331 | 74%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0177-> 249/331 | 75%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0178-> 250/331 | 75%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0179-> 251/331 | 75%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0180-> 252/331 | 76%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0181-> 253/331 | 76%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0182-> 254/331 | 76%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0183-> 255/331 | 77%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0184-> 256/331 | 77%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0185-> 257/331 | 77%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0186-> 258/331 | 77%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0187-> 259/331 | 78%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0188-> 260/331 | 78%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0189-> 261/331 | 78%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0190-> 262/331 | 79%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0191-> 263/331 | 79%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0192-> 264/331 | 79%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0193-> 265/331 | 80%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0194-> 266/331 | 80%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0195-> 267/331 | 80%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0196-> 268/331 | 80%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0197-> 269/331 | 81%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0198-> 270/331 | 81%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0199-> 271/331 | 81%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0200-> 272/331 | 82%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0201-> 273/331 | 82%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0202-> 274/331 | 82%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0203-> 275/331 | 83%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0204-> 276/331 | 83%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0205-> 277/331 | 83%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0206-> 278/331 | 83%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0207-> 279/331 | 84%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0208-> 280/331 | 84%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0209-> 281/331 | 84%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0210-> 282/331 | 85%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0211-> 283/331 | 85%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0212-> 284/331 | 85%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0213-> 285/331 | 86%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0214-> 286/331 | 86%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0215-> 287/331 | 86%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0216-> 288/331 | 87%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0217-> 289/331 | 87%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0218-> 290/331 | 87%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0219-> 291/331 | 87%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0220-> 292/331 | 88%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0221-> 293/331 | 88%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0222-> 294/331 | 88%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0223-> 295/331 | 89%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0224-> 296/331 | 89%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0225-> 297/331 | 89%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0226-> 298/331 | 90%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0227-> 299/331 | 90%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0228-> 300/331 | 90%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0229-> 301/331 | 90%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0230-> 302/331 | 91%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0231-> 303/331 | 91%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0232-> 304/331 | 91%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0233-> 305/331 | 92%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0234-> 306/331 | 92%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0235-> 307/331 | 92%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0236-> 308/331 | 93%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0237-> 309/331 | 93%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0238-> 310/331 | 93%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0239-> 311/331 | 93%
+[2026-04-20 18:12:31] [INFO] Chargement de robot_3d_0240-> 312/331 | 94%
+[2026-04-20 18:12:31] [INFO] Chargement de water_0-> 313/331 | 94%
+[2026-04-20 18:12:31] [INFO] Chargement de water_2-> 315/331 | 95%
+[2026-04-20 18:12:31] [INFO] Chargement de water_5-> 318/331 | 96%
+[2026-04-20 18:12:31] [INFO] Chargement de water_7-> 320/331 | 96%
+[2026-04-20 18:12:31] [INFO] Chargement de lava_1-> 322/331 | 97%
+[2026-04-20 18:12:31] [INFO] Chargement de lava_4-> 325/331 | 98%
+[2026-04-20 18:12:31] [INFO] Chargement de lava_7-> 328/331 | 99%
+[2026-04-20 18:12:31] [INFO] Chargement de rocket_1-> 330/331 | 99%
+[2026-04-20 18:12:31] [INFO] Assets chargés, redirect vers play_menu
+[2026-04-20 18:12:31] [INFO] Entrez dans play_menu avec le compte tsukira2.json
+[2026-04-20 18:12:47] [INFO] Entrez dans play_menu avec le compte tsukira2.json
+[2026-04-20 18:12:49] [ERROR] play ->
+Traceback (most recent call last):
+  File "c:\Users\Tsukira\Desktop\informatique_tfe\src\data\object\games\play.py", line 269, in play
+    draw_background(background, background_pos, camera_y)
+  File "c:\Users\Tsukira\Desktop\informatique_tfe\src\data\object\games\play.py", line 164, in draw_background
+    screen.blit(img, (bx, by - int(camera_y * parallax)))
+pygame.error: display Surface quit
+[2026-04-20 18:12:49] [ERROR] play_menu ->
+Traceback (most recent call last):
+  File "c:\Users\Tsukira\Desktop\informatique_tfe\src\data\object\games\play_menu.py", line 96, in play_menu
+    screen.blit(BACKGROUND, (0, 0))
+pygame.error: display Surface quit
+[2026-04-20 18:12:49] [INFO] Compte choisi -> True
+[2026-04-20 18:12:49] [INFO] Main Menu
+[2026-04-20 18:12:50] [INFO] +------ Fin du jeux -----+
+[2026-04-20 18:33:44] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-04-20 18:33:44] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-04-20 18:33:44] [INFO] Main Menu
+[2026-04-20 18:33:45] [INFO] Entrez dans compte
+[2026-04-20 18:33:50] [INFO] Entrez dans load_menu avec le compte -> tsukira2.json
+[2026-04-20 18:33:50] [INFO] Chargement de title-> 1/331 | 0%
+[2026-04-20 18:33:50] [INFO] Chargement de creator-> 2/331 | 0%
+[2026-04-20 18:33:50] [INFO] Chargement de music_creator-> 3/331 | 0%
+[2026-04-20 18:33:50] [INFO] Chargement de the_void-> 4/331 | 1%
+[2026-04-20 18:33:50] [INFO] Chargement de the_void_full-> 5/331 | 1%
+[2026-04-20 18:33:50] [INFO] Chargement de underground_1-> 6/331 | 1%
+[2026-04-20 18:33:50] [INFO] Chargement de underground_1-> 6/331 | 1%
+[2026-04-20 18:33:50] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:33:50] [INFO] Chargement de underground_2-> 7/331 | 2%
+[2026-04-20 18:33:50] [INFO] Chargement de underground_3-> 8/331 | 2%
+[2026-04-20 18:33:50] [INFO] Chargement de underground_3-> 8/331 | 2%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_play_menu-> 9/331 | 2%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_play_menu-> 9/331 | 2%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_play_menu-> 9/331 | 2%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_boutique_menu-> 10/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_boutique_menu-> 10/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_boutique_menu-> 10/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_option_menu-> 11/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_option_menu-> 11/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_option_menu-> 11/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_play-> 12/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_play-> 12/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_play-> 12/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_quitter-> 13/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_quitter-> 13/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de btn_quitter-> 13/331 | 3%
+[2026-04-20 18:33:50] [INFO] Chargement de refresh_btn-> 15/331 | 4%
+[2026-04-20 18:33:50] [INFO] Chargement de boutique_bg-> 17/331 | 5%
+[2026-04-20 18:33:50] [INFO] Chargement de boutique_energy-> 19/331 | 5%
+[2026-04-20 18:33:50] [INFO] Chargement de boutique_pression-> 20/331 | 6%
+[2026-04-20 18:33:50] [INFO] Chargement de inventory-> 21/331 | 6%
+[2026-04-20 18:33:50] [INFO] Chargement de blue_storm-> 22/331 | 6%
+[2026-04-20 18:33:50] [INFO] Chargement de danger-> 23/331 | 6%
+[2026-04-20 18:33:50] [INFO] Chargement de pression_icon-> 24/331 | 7%
+[2026-04-20 18:33:50] [INFO] Chargement de oak_log-> 33/331 | 9%
+[2026-04-20 18:33:50] [INFO] Chargement de crying_obsidian-> 49/331 | 14%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_1-> 54/331 | 16%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_5-> 58/331 | 17%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_40-> 64/331 | 19%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_100-> 68/331 | 20%
+[2026-04-20 18:33:50] [INFO] Chargement de bird_3-> 72/331 | 21%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0001-> 73/331 | 22%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0002-> 74/331 | 22%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0003-> 75/331 | 22%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0004-> 76/331 | 22%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0005-> 77/331 | 23%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0006-> 78/331 | 23%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0007-> 79/331 | 23%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0008-> 80/331 | 24%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0009-> 81/331 | 24%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0010-> 82/331 | 24%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0011-> 83/331 | 25%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0012-> 84/331 | 25%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0013-> 85/331 | 25%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0014-> 86/331 | 25%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0015-> 87/331 | 26%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0017-> 89/331 | 26%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0018-> 90/331 | 27%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0019-> 91/331 | 27%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0020-> 92/331 | 27%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0021-> 93/331 | 28%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0022-> 94/331 | 28%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0023-> 95/331 | 28%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0024-> 96/331 | 29%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0025-> 97/331 | 29%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0026-> 98/331 | 29%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0027-> 99/331 | 29%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0028-> 100/331 | 30%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0029-> 101/331 | 30%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0030-> 102/331 | 30%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0031-> 103/331 | 31%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0032-> 104/331 | 31%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0033-> 105/331 | 31%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0034-> 106/331 | 32%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0035-> 107/331 | 32%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0036-> 108/331 | 32%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0037-> 109/331 | 32%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0038-> 110/331 | 33%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0039-> 111/331 | 33%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0040-> 112/331 | 33%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0041-> 113/331 | 34%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0042-> 114/331 | 34%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0043-> 115/331 | 34%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0044-> 116/331 | 35%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0045-> 117/331 | 35%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0046-> 118/331 | 35%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0047-> 119/331 | 35%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0048-> 120/331 | 36%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0049-> 121/331 | 36%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0050-> 122/331 | 36%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0051-> 123/331 | 37%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0052-> 124/331 | 37%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0053-> 125/331 | 37%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0054-> 126/331 | 38%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0055-> 127/331 | 38%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0056-> 128/331 | 38%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0057-> 129/331 | 38%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0058-> 130/331 | 39%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0059-> 131/331 | 39%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0060-> 132/331 | 39%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0061-> 133/331 | 40%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0062-> 134/331 | 40%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0063-> 135/331 | 40%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0064-> 136/331 | 41%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0065-> 137/331 | 41%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0066-> 138/331 | 41%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0067-> 139/331 | 41%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0068-> 140/331 | 42%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0069-> 141/331 | 42%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0070-> 142/331 | 42%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0071-> 143/331 | 43%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0072-> 144/331 | 43%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0073-> 145/331 | 43%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0074-> 146/331 | 44%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0075-> 147/331 | 44%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0076-> 148/331 | 44%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0077-> 149/331 | 45%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0078-> 150/331 | 45%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0079-> 151/331 | 45%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0080-> 152/331 | 45%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0081-> 153/331 | 46%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0082-> 154/331 | 46%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0083-> 155/331 | 46%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0084-> 156/331 | 47%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0085-> 157/331 | 47%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0086-> 158/331 | 47%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0087-> 159/331 | 48%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0088-> 160/331 | 48%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0089-> 161/331 | 48%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0090-> 162/331 | 48%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0091-> 163/331 | 49%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0092-> 164/331 | 49%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0093-> 165/331 | 49%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0094-> 166/331 | 50%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0095-> 167/331 | 50%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0096-> 168/331 | 50%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0097-> 169/331 | 51%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0098-> 170/331 | 51%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0099-> 171/331 | 51%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0100-> 172/331 | 51%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0101-> 173/331 | 52%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0102-> 174/331 | 52%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0103-> 175/331 | 52%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0104-> 176/331 | 53%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0105-> 177/331 | 53%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0106-> 178/331 | 53%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0107-> 179/331 | 54%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0108-> 180/331 | 54%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0109-> 181/331 | 54%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0110-> 182/331 | 54%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0111-> 183/331 | 55%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0112-> 184/331 | 55%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0113-> 185/331 | 55%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0114-> 186/331 | 56%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0115-> 187/331 | 56%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0116-> 188/331 | 56%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0117-> 189/331 | 57%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0118-> 190/331 | 57%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0119-> 191/331 | 57%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0120-> 192/331 | 58%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0121-> 193/331 | 58%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0122-> 194/331 | 58%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0123-> 195/331 | 58%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0124-> 196/331 | 59%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0125-> 197/331 | 59%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0126-> 198/331 | 59%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0127-> 199/331 | 60%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0128-> 200/331 | 60%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0129-> 201/331 | 60%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0130-> 202/331 | 61%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0131-> 203/331 | 61%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0132-> 204/331 | 61%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0133-> 205/331 | 61%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0134-> 206/331 | 62%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0135-> 207/331 | 62%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0136-> 208/331 | 62%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0137-> 209/331 | 63%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0138-> 210/331 | 63%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0139-> 211/331 | 63%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0140-> 212/331 | 64%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0141-> 213/331 | 64%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0142-> 214/331 | 64%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0143-> 215/331 | 64%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0144-> 216/331 | 65%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0145-> 217/331 | 65%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0146-> 218/331 | 65%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0147-> 219/331 | 66%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0148-> 220/331 | 66%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0149-> 221/331 | 66%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0150-> 222/331 | 67%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0151-> 223/331 | 67%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0152-> 224/331 | 67%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0153-> 225/331 | 67%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0154-> 226/331 | 68%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0155-> 227/331 | 68%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0156-> 228/331 | 68%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0157-> 229/331 | 69%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0158-> 230/331 | 69%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0159-> 231/331 | 69%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0160-> 232/331 | 70%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0161-> 233/331 | 70%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0162-> 234/331 | 70%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0163-> 235/331 | 70%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0164-> 236/331 | 71%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0165-> 237/331 | 71%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0166-> 238/331 | 71%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0167-> 239/331 | 72%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0168-> 240/331 | 72%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0169-> 241/331 | 72%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0170-> 242/331 | 73%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0171-> 243/331 | 73%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0172-> 244/331 | 73%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0173-> 245/331 | 74%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0174-> 246/331 | 74%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0175-> 247/331 | 74%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0176-> 248/331 | 74%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0177-> 249/331 | 75%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0178-> 250/331 | 75%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0179-> 251/331 | 75%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0180-> 252/331 | 76%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0181-> 253/331 | 76%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0182-> 254/331 | 76%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0183-> 255/331 | 77%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0184-> 256/331 | 77%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0185-> 257/331 | 77%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0186-> 258/331 | 77%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0187-> 259/331 | 78%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0188-> 260/331 | 78%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0189-> 261/331 | 78%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0190-> 262/331 | 79%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0191-> 263/331 | 79%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0192-> 264/331 | 79%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0193-> 265/331 | 80%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0194-> 266/331 | 80%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0195-> 267/331 | 80%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0196-> 268/331 | 80%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0198-> 270/331 | 81%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0199-> 271/331 | 81%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0200-> 272/331 | 82%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0201-> 273/331 | 82%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0202-> 274/331 | 82%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0203-> 275/331 | 83%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0204-> 276/331 | 83%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0205-> 277/331 | 83%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0206-> 278/331 | 83%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0207-> 279/331 | 84%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0208-> 280/331 | 84%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0209-> 281/331 | 84%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0210-> 282/331 | 85%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0211-> 283/331 | 85%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0212-> 284/331 | 85%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0213-> 285/331 | 86%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0214-> 286/331 | 86%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0215-> 287/331 | 86%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0216-> 288/331 | 87%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0217-> 289/331 | 87%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0218-> 290/331 | 87%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0219-> 291/331 | 87%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0220-> 292/331 | 88%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0221-> 293/331 | 88%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0222-> 294/331 | 88%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0223-> 295/331 | 89%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0224-> 296/331 | 89%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0225-> 297/331 | 89%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0226-> 298/331 | 90%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0227-> 299/331 | 90%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0228-> 300/331 | 90%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0229-> 301/331 | 90%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0230-> 302/331 | 91%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0231-> 303/331 | 91%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0232-> 304/331 | 91%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0233-> 305/331 | 92%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0234-> 306/331 | 92%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0235-> 307/331 | 92%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0236-> 308/331 | 93%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0237-> 309/331 | 93%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0238-> 310/331 | 93%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0239-> 311/331 | 93%
+[2026-04-20 18:33:50] [INFO] Chargement de robot_3d_0240-> 312/331 | 94%
+[2026-04-20 18:33:50] [INFO] Chargement de water_3-> 316/331 | 95%
+[2026-04-20 18:33:50] [INFO] Chargement de water_7-> 320/331 | 96%
+[2026-04-20 18:33:50] [INFO] Chargement de lava_7-> 328/331 | 99%
+[2026-04-20 18:33:50] [INFO] Assets chargés, redirect vers play_menu
+[2026-04-20 18:33:50] [INFO] Entrez dans play_menu avec le compte tsukira2.json
+[2026-04-20 18:33:52] [INFO] Compte choisi -> True
+[2026-04-20 18:33:52] [INFO] Main Menu
+[2026-04-20 18:33:52] [INFO] Entrez dans compte
+[2026-04-20 18:36:20] [INFO] Compte choisi -> False
+[2026-04-20 18:36:20] [INFO] +------ Fin du jeux -----+
+[2026-04-20 18:41:01] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-04-20 18:41:01] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-04-20 18:41:01] [INFO] Main Menu
+[2026-04-20 18:41:02] [INFO] Entrez dans compte
+[2026-04-20 18:44:29] [INFO] Compte choisi -> False
+[2026-04-20 18:44:29] [INFO] +------ Fin du jeux -----+
+[2026-04-20 18:44:31] [INFO] 
+
+
+
++///////////////////////////////////////////////////////////////////////////+
+
+                Démarrage de Nexus Extraction
+
++///////////////////////////////////////////////////////////////////////////+
+
+[2026-04-20 18:44:31] [INFO] 
++---------------------------- Bienvenue ! ----------------------------+
+
+Bienvenue dans Nexus Extraction. Si vous lisez ceci, c’est que vous vous
+trouvez actuellement dans les logs du jeu. Si vous êtes un joueur lambda,
+cette fenêtre ne vous intéressera pas, mais ne la fermez pas, car cette
+action entraînera la fermeture du jeu.
+
+En cas de problème ou de plantage du jeu, merci de contacter le développeur
+à l’adresse e-mail suivante : mouyelv@sjb-liege.org
+en joignant les fichiers de logs qui se trouvent dans le dossier "logs/".
+
+Merci de jouer à Nexus Extraction et bon jeu ;)
+
++-------------------------------- LOGS --------------------------------+
+
+[2026-04-20 18:44:31] [INFO] Main Menu
+[2026-04-20 18:44:35] [INFO] Entrez dans compte
+[2026-04-20 18:44:42] [INFO] Compte choisi -> False
+[2026-04-20 18:44:42] [INFO] +------ Fin du jeux -----+

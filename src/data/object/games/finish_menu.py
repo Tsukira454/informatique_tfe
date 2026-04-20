@@ -2,6 +2,7 @@ import pygame
 import math
 from config.config import *
 from ..others.save import *
+from ..others.leaderboard_api import submit_score
 from object.others.logger import logger
 from object.others.audio_manager import stop_bg_music, play_fx
 
@@ -44,6 +45,8 @@ def finish_menu(reward, compte_file, asset_manager=None, maps_level=0):
         inventory=data["inventory"]
     )
     save_load.save_data(file=compte_file, data=data)
+    if "uuid" in data:
+        submit_score(account_uuid=data["uuid"], pseudo=data["pseudo"], money=data["money"])
     stop_bg_music()
     play_fx(ROOT_LOCATION / "assets/music/music_nexus_death.wav")
 

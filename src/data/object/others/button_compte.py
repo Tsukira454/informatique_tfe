@@ -1,7 +1,7 @@
 import pygame
-import pygame
 import os
 import json
+import uuid as uuid_lib
 from config.config import *
 from object.others.save import save_load
 
@@ -75,7 +75,7 @@ class ButtonCompte:
                 if fichier.lower().endswith(".json"):
                     account_number += 1
             inventory = {"energy": 1, "pression": 1}
-            data = {"pseudo": pseudo, "money": 0, "inventory": inventory}
+            data = {"pseudo": pseudo, "money": 0, "inventory": inventory, "uuid": str(uuid_lib.uuid4())}
             save_load.save_data(file=f"{pseudo}{account_number + 1}.json", data=data)
         else:
             return self.file
